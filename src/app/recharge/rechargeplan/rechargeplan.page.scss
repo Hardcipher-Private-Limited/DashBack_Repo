@@ -1,0 +1,56 @@
+.recharge {
+  margin-left: 10px !important;
+  margin-top: 1vh !important;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px !important;
+}
+ion-item {
+  border: none;
+}
+.airtel {
+  margin-left: 4vw;
+  color: red;
+}
+.rrow {
+  margin-left: 47vw;
+  margin-top: -100px;
+}
+.bank {
+  max-width: 100%;
+  margin-top: 3vh;
+  margin-left: 10vw;
+  font-size: larger;
+  border: none;
+}
+.btn {
+  --background: #FFFFFF;
+  color: #09376e;
+  width: 20vw;
+  // padding: 5vw;
+  margin-left: 14vw;
+  border-radius: 5%;
+}
+.btn2{
+    --background: #FFFFFF;
+  color: #09376e;
+  width: 30vw;
+  // padding: 5vw;
+  margin-left: 14vw;
+  border-radius: 5%;
+
+}
+.plan{
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.input {
+    margin-left: 30px;
+    margin-right: 40px;
+    padding-right: 5px;
+    border: 2px solid grey;
+    align-items: center;
+    
+  }

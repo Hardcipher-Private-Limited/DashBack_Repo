@@ -1,0 +1,333 @@
+<ion-content class="home-page">
+  <ion-card-header >
+    <div class="logo">
+      <ion-col size="12">
+        
+        <img src="assets/icon/Vector_menu.png"  class="logo1" />
+    
+        <img src="assets/icon/logo 1.png" class="logo22" />
+        <img src="assets/icon/Group-icon.png" class="logo3" /> 
+        <a routerLink="/notification">
+        <img src="assets/icon/Vector-2.png" class="logo44" />
+        </a>
+      </ion-col>
+    </div> 
+  </ion-card-header>
+
+  <div class="head" [hidden]="ishidden">
+    <ion-col size="11" >
+       Welcome Back, {{name}} 
+    </ion-col>
+  </div>
+    
+  <div class="flex" >
+    <ion-content [scrollEvents]="true"
+    (ionScrollStart)="handleScrollStart()"
+    (ionScroll)="handleScroll($any($event))"
+    (ionScrollEnd)="handleScrollEnd()"
+    class="ion-padding"> 
+    <div class="hidebtn">
+       <ion-button class="hidden-btn" (click)="hide()"></ion-button>
+    </div>
+<div style="overflow-x: auto;">
+<table>
+  <tr class="row">
+    <td>     
+      <div class="icon1">
+        <a routerLink="/mobile-login"><img src="assets/icon/Group 218.png" class="img">
+        </a>
+      </div>
+      <br>
+    </td>
+    <td>
+      <div class="icon1">
+        <a routerLink="/mobile-login">
+          <img src="assets/icon/Group 219.png" class="img">
+        </a>
+      </div>
+    <br></td>
+    <td>
+      <div class="icon1">
+        <a routerLink="/mobile-login">
+          <img src="assets/icon/Group 220.png" class="img">
+        </a>
+      </div>
+    <br></td>
+    <td>
+      <div class="icon1">
+        <a routerLink="/mobile-login">
+          <img src="assets/icon/_563492672.png" class="img">
+        </a>
+      </div>
+    <br></td>
+  </tr>
+  <tr class="row text">
+    <td><h6 class="icon-name text">Add<br> Money...</h6></td>
+    <td><h6 class="icon-name">Pay cards</h6></td>  
+    <td><h6 class="icon-name ">Recieve <br>coins</h6></td>
+    <td><h6 class="icon-name ">Refer</h6></td>  
+  </tr>
+  <tr><td colspan="4"> <img src="assets/icon/Rectangle 213.png" class="imgrect"></td></tr>
+  <tr class="row">
+    <td>     
+      <div class="icon1">
+        <a routerLink="/mobile-login"><img src="assets/icon/Group 254.png" class="img">
+        </a>
+      </div>
+      <br>
+    </td>
+    <td>
+      <div class="icon1">
+        <a routerLink="/mobile-login">
+          <img src="assets/icon/credit-card 2.png" class="img">
+        </a>
+      </div>
+    <br></td>
+    <td>
+      <div class="icon1">
+        <a routerLink="/mobile-login">
+          <img src="assets/icon/Group 480.png" class="img">
+        </a>
+      </div>
+    <br></td>
+    <td>
+      <div class="icon1">
+        <a routerLink="/mobile-login">
+          <img src="assets/icon/Group 255.png" class="img">
+        </a>
+      </div>
+    <br></td>
+  </tr>
+  <tr class="row">
+    <td><h6 class="icon-name">Payment History</h6></td>
+    <td><h6 class="icon-name">Wallet</h6></td>  
+    <td><h6 class="icon-name">Cashback Calculator</h6></td>
+    <td><h6 class="icon-name">All service</h6></td>  
+  </tr>
+  <tr class="row">
+    <td colspan="4"> <p class="head2">Recharges & Bills</p></td>
+    </tr>
+    <tr class="row">
+    <td>     
+      <div class="icon2">
+        <a routerLink="/mobile-login"><img src="assets/icon/Group 514.png" class="img">
+        </a>
+      </div>
+      <br>
+    </td>
+    <td>
+      <div class="icon2">
+        <a routerLink="/mobile-login">
+          <img src="assets/icon/Rectangle.png" class="img">
+        </a>
+      </div>
+    <br></td>
+    <td>
+      <div class="icon2">
+        <a routerLink="/mobile-login">
+          <img src="assets/icon/Group 515.png" class="img">
+        </a>
+      </div>
+    <br></td>
+    <td>
+      <div class="icon2">
+        <a routerLink="/mobile-login">
+          <img src="assets/icon/Group 519.png" class="img">
+        </a>
+      </div>
+    <br></td>
+  </tr>
+  <tr class="row">
+    <td><h6 class="icon-name">Mobile Recharge</h6></td>
+    <td><h6 class="icon-name">FASTang Recharge</h6></td>  
+    <td><h6 class="icon-name">DTH</h6></td>
+    <td><h6 class="icon-name">Cable TV</h6></td>  
+  </tr>
+  <tr class="row">
+    <td>
+      <div class="icon2">
+        <a routerLink="/mobile-login">
+          <img src="assets/icon/Group 516.png" class="img">
+        </a>
+      </div>
+    <br></td>
+    <td>
+      <div class="icon2">
+        <a routerLink="/mobile-login">
+          <img src="assets/icon/Group 517.png" class="img">
+        </a>
+      </div>
+    <br></td>
+    <td>
+      <div class="icon2">
+        <a routerLink="/mobile-login">
+          <img src="assets/icon/Group 518.png" class="img">
+        </a>
+      </div>
+    <br></td>
+    <td>
+    <div class="viewmore">
+      <a routerLink="/utilities">
+        <img src="assets/icon/Group 471.png" class="img">
+      </a>
+    </div>
+  <br></td>
+  </tr>
+  <tr class="row">
+    <td><h6 class="icon-name">Gas Bill</h6></td>
+    <td><h6 class="icon-name">Postpaid</h6></td>  
+    <td><h6 class="icon-name">Electricity</h6></td>
+    <td><h6 class="icon-name">View More</h6></td>  
+  </tr>
+  <tr class="row">
+    <td colspan="4"> <p class="head2">Trending</p></td>
+    </tr>
+  </table>
+   <div class="trend">
+      <table>
+    <tr class="row">
+      <td>     
+          <div class="icon4">
+          <a routerLink="/mobile-login" class="icontrend1">
+            <img src="assets/icon/Group 514.png" class="trendimg1">
+          </a>
+          </div>
+          <br>
+      </td>
+        
+            <td>   
+              <div class="icon4">
+          <a routerLink="/mobile-login" class="icontrend2">
+            <img src="assets/icon/Group 511.png" class="trendimg2">
+          </a>
+          </div>
+          <br>
+        </td>
+        <td>
+        <div class="icon4">
+          <a routerLink="/mobile-login" class="icontrend3">
+            <img src="assets/icon/Group 518.png" class="trendimg3">
+          </a>
+        </div>
+        <br>
+      </td>
+      
+    </tr>
+    <tr class="row">
+      <td><h6 class="icon-name2">Mobile Recharge</h6></td>
+      <td><h6 class="icon-name2">Book a Cylender</h6></td>  
+      <td><h6 class="icon-name2">Electricity</h6></td>
+    </tr>
+    <tr class="row">   
+        <td>   
+        <div class="icon4">
+          <a routerLink="/mobile-login" class="icontrend4">
+            <img src="assets/icon/Group 517.png" class="trendimg4">
+          </a>
+          </div>
+          <br>
+          </td>
+          <td>   
+            <div class="icon4">
+          <a routerLink="/mobile-login" class="icontrend5">
+            <img src="assets/icon/Group 513.png" class="trendimg5">
+          </a>
+       </div>
+       <br>
+       </td>
+       <td>   
+        <div class="icon4">
+          <a routerLink="/mobile-login" class="icontrend6">
+            <img src="assets/icon/Rectangle.png" class="trendimg6">
+          </a>
+         </div>  
+         <br>  
+         <br>  
+      </td>
+    </tr>
+    <tr class="row">
+      <td><h6 class="icon-name2">PostPaid</h6></td>
+      <td><h6 class="icon-name2">Loan EMI</h6></td>  
+      <td><h6 class="icon-name2">FASTang Recharge</h6></td>
+    </tr>
+    </table>
+    </div> 
+    <table class="store" style="overflow-x: auto;">
+  <tr class="row">
+    <td colspan="4"> <p class="head2">Our Stores</p></td>
+    </tr>
+  <tr class="row">
+    <td>     
+      <div class="icon3" >
+        <a routerLink="/redirect"><img src="assets/icon/Group 575.png" class="img">
+        </a>
+      </div>
+      <br>
+    </td>
+    <td>
+      <div class="icon3">
+        <a routerLink="/mobile-login">
+          <img src="assets/icon/Group 572.png" class="img">
+        </a>
+      </div>
+    <br></td>
+    <td>
+      <div class="icon3">
+        <a routerLink="/mobile-login">
+          <img src="assets/icon/Group.png" class="img">
+        </a>
+      </div>
+    <br></td>
+    <td>
+      <div class="icon3">
+        <a routerLink="/store">
+          <img src="assets/icon/Group-1.png" class="img">
+        </a>
+      </div>
+    <br></td>
+  </tr>
+  <tr class="row">
+    <td><h6 class="icon-name">Levi's</h6></td>
+    <td><h6 class="icon-name">Myntra</h6></td>  
+    <td><h6 class="icon-name">JBL</h6></td>
+    <td><h6 class="icon-name">Reebok</h6></td>  
+  </tr>
+  <tr class="row">
+    <td>     
+      <div class="icon3">
+        <a routerLink="/mobile-login"><img src="assets/icon/Group 576.png" class="img">
+        </a>
+      </div>
+      <br>
+    </td>
+    <td>
+      <div class="icon3">
+        <a routerLink="/mobile-login">
+          <img src="assets/icon/Group 574.png" class="img">
+        </a>
+      </div>
+    <br></td>
+    <td>
+      <div class="icon3">
+        <a routerLink="/mobile-login">
+          <img src="assets/icon/Group 573.png" class="img">
+        </a>
+      </div>
+    <br></td>
+    <td>
+      <div class="viewmore">
+        <a routerLink="/store">
+          <img src="assets/icon/Group 471.png" class="img">
+        </a>
+      </div>
+    <br></td>
+  </tr>
+  <tr class="row">
+    <td><h6 class="icon-name">AJIO</h6></td>
+    <td><h6 class="icon-name">Flipkart</h6></td>  
+    <td><h6 class="icon-name">Amazon</h6></td>
+    <td> <a routerLink="/store"><h6 class="icon-name">View More</h6></a></td>  
+  </tr>
+</table>
+
+</div>

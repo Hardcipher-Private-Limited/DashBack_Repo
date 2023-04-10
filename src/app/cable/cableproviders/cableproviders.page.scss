@@ -1,0 +1,73 @@
+.DTH {
+  margin-left: 10px !important;
+  margin-top: 1vh !important;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px !important;
+}
+ion-item {
+  // margin-top:20px;
+  background-color: #e8ecf4;
+  border: hidden;
+}
+.input {
+  align-items: center;
+  left: 7vw;
+}
+.flex {
+  border-top-left-radius: 5vw;
+  border-top-right-radius: 5vw;
+  padding-right: 2vw;
+  padding-left: 2vw;
+  padding-bottom: 1vh;
+  padding-top: 1vh;
+  height: 100%;
+  width: 100%;
+  background: white;
+}
+.person1 {
+  position: relative;
+  width: -10px;
+  height: -10px;
+}
+.a {
+  width: -10px;
+  height: -20%;
+}
+
+h3 {
+  font-weight: bold;
+  margin-left: 20px;
+  overflow: visible;
+}
+.custom-input-field {
+  background: #f7f8f9;
+  width: 100%;
+  border: 1px solid #e8ecf4;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 2vw;
+  color: #000;
+  font-size: 4vw;
+  height: 14vw;
+  padding-left: 5vw;
+  padding-right: 15vw;
+}
+.input {
+  margin-left: 5vw;
+  margin-right: 10vw;
+}
+.img {
+  width: 100px;
+  margin-top: 9px;
+}
+.img1 {
+  height: auto;
+
+  max-width: 100%;
+}
+.img2 {
+  height: auto;
+
+  max-width: 100%;
+}

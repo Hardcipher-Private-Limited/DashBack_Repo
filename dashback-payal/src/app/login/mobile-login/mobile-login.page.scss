@@ -1,0 +1,211 @@
+
+.flex-center{
+    //justify-content: center;
+    align-items: center;    
+   // height:100%;
+    // margin-top:100px;
+    // margin-left: 35px;
+    // margin-right: 35px;
+    // margin-top: 126px;
+    // margin-left: 5%;
+    // margin-right: 5%;
+    margin-top: 10vh;
+    // margin-bottom: 0px;
+}
+
+.logo{
+    width: 118vw;
+    // height: 96px;
+    height: 10vh;
+}
+ion-item{
+    // margin-top:20px;
+    background-color: #E8ECF4;
+}
+.input{
+    padding-top:10%;
+    // padding-top: 26px !important;
+}
+.or{
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.center{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+    margin-top: 37px;
+}
+.left{
+    text-align: left;
+    margin-bottom: 20px;
+    padding-top:10%;
+    // padding-top: 24px;
+}
+
+.text-danger{
+    color: red;
+    font-size: 5vw;
+    padding-left:5vw
+}
+.ForgetPswBtn {
+    /* Montserrat Regular = 400 */
+    font-weight: 500;
+    font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+}
+  
+// ion-input{
+// box-sizing: border-box;
+// width: 331px;
+// height: 56px;
+// left: 49px;
+// top: 355px;
+// // --background: #F7F8F9 !important;
+// /* Border */
+// border: 1px solid #E8ECF4;
+// --background: #F7F8F9;
+
+// }
+
+.icon{
+    width: 40px;
+    height:auto;
+    background-color: #FAFAFA;
+    display:inline-block;
+    text-align: center;
+}
+ion-footer{
+    margin-top: 10px;
+    text-align: center;
+}
+.iconlist{
+    justify-content: center;
+    display: flex;
+    align-items: center; 
+  }
+
+  .icon{
+    padding-left: 20px;
+    margin-top: 10px;
+  }
+.left{
+float: right;
+// margin-top: 20px;
+}
+.footer{
+    margin-bottom: 0px;
+    margin-bottom: 0px;
+}
+.row{
+    justify-content: center;
+}
+.regLink{
+font-size: 17px;
+letter-spacing: 0.01em;
+color: #2775B3;
+font-weight: 500;
+}
+.msg{
+font-weight: 500;
+font-size: 17px;
+// line-height: 140%;
+/* identical to box height, or 20px */
+// text-align: center;
+letter-spacing: 0.01em
+}
+.footer{
+    padding-top: 60%;
+    // padding-top: 210px;
+    display:block;
+    margin-bottom:0px
+}
+.input-wrapper {
+    height: 56px !important;
+}
+// }
+// .custom-input-field{
+//     background:#F7F8F9;
+//     width: 100%;
+//     border: 1px solid #E8ECF4;
+//     font-family: 'Montserrat', sans-serif;
+//     // font-family: 'Montserrat';   
+//     // margin-bottom: 20px;
+//     border-radius:8px;
+//     // margin: 8px 7vw;
+//     color: #000;
+//     // padding: 8px 5px 8px 10px;
+//     font-size: 15px;
+//    // outline: none;
+//     height: 7vh;
+//     padding-left: 20px;
+//     font-size:4vw;
+//     // &::placeholder{
+//     //     color: rgba(128, 128, 128, 0.842);
+//     // }
+// }
+// ion-input{
+//     display:inline-block;
+//     width:50px;
+//     height:50px;
+//     margin:10px;   
+//     --padding-start:7px;
+//    border-radius:8px;
+//     --background:#E8ECF4;
+//     box-shadow: 0px 0px 0px 1px #fff inset;
+//     }
+
+.input-wrapper {
+    display: flex;
+    height: 56px;
+}
+input:focus{
+    outline:2px solid #35C2C1; ;     /* oranges! yey */
+  }
+
+
+//     .footer{
+//         padding-top: 110px;
+//         display:block;
+//         margin-bottom:0px
+//     }
+//     .custom-input-field{
+//         background:#F7F8F9;
+//         width: 100%;
+//         border: 1px solid #E8ECF4;
+//         font-family: 'Montserrat', sans-serif;
+//         // font-family: 'Montserrat';   
+//         // margin-bottom: 20px;
+//         border-radius:8px;
+//         // margin: 8px 7vw;
+//         color: #000;
+//         // padding: 8px 5px 8px 10px;
+//         font-size: 15px;
+//        // outline: none;
+//         height: 36px;
+//         padding-left: 10px;
+//         // &::placeholder{
+//         //     color: rgba(128, 128, 128, 0.842);
+//         // }
+//     }
+// }
+.login{
+    text-align: center;
+    padding-top: 7vw;
+}
+// .login-btn{
+//     width: 30.3vw;
+//     height: 5.6vh;
+// }
+.login-btn {
+    width: 35vw;
+    height: 5vh;
+    --background: #09376E !important;
+    justify-content: center;
+    align-items: center;
+    box-shadow: -4px 4px 18px rgba(0, 0, 0, 0.09);
+    text-transform: initial;
+    --border-radius: 8px;
+}

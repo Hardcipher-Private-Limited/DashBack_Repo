@@ -1,0 +1,168 @@
+<ion-content>
+  <ion-row class="wallet">
+    <a routerLink="/home">
+      <img src="assets/back.png" class="image" />
+    </a>
+    <a routerLink="/home">
+      <img src="../../../assets/dashlogomain.svg" class="logo" />
+    </a>
+    <a routerLink="/home">
+      <img src="../../../assets/question.svg" class="question" />
+    </a>
+  </ion-row>
+  <br />
+  <ion-row class="wallet2">
+    <a routerLink="/home">
+      <img
+        src="../../../assets/wallet/DashBack Balance.svg"
+        class="dashbackbalance"
+      />
+    </a>
+    <a routerLink="/home">
+      <img
+        src="../../../assets/wallet/Total Cashback.svg"
+        class="totalcashback"
+      />
+    </a>
+    <a class="text1">₹9,756.89</a>
+    <span class="divider">
+      <img src="../../../assets/wallet/divider.svg" alt="divider" />
+    </span>
+
+    <a class="text2">₹2756</a>
+  </ion-row>
+  <br />
+</ion-content>
+
+<ion-card class="card1">
+  <ion-card-header>
+    <img src="../../../assets/addwalletmoney.svg" class="card" />
+    <br />
+    <div class="inputbox">
+      <ion-col size="12">
+        <input
+          type="tel"
+          class="custom-input-field"
+          placeholder="₹130.00"
+          required
+        />
+      </ion-col>
+    </div>
+
+    <br />
+    <ion-button
+      class="smallbutton"
+      fill="outline"
+      style="color: #09376e"
+      shape="round"
+      size="small"
+      >+100</ion-button
+    >
+    <ion-button
+      class="smallbutton"
+      fill="outline"
+      style="color: #09376e"
+      shape="round"
+      size="small"
+      >+500</ion-button
+    >
+    <ion-button
+      class="smallbutton"
+      fill="outline"
+      style="color: #09376e"
+      shape="round"
+      size="small"
+      >+1000</ion-button
+    >
+
+    <ion-button class="long-btn" expand="block" routerLink="/home"
+      >Proceed to Add +130.00</ion-button
+    ><br />
+  </ion-card-header>
+</ion-card>
+
+<ion-card class="card3" lines="none">
+  <ion-list [inset]="true">
+    <ion-item href="#">
+      <ion-avatar slot="start">
+        <div class="cardimage">
+          <img
+            src="../../../assets/paywallet.svg"
+            class="person1"
+            routerLink="/pay2"
+          />
+        </div>
+      </ion-avatar>
+      <ion-label class="label" routerLink="/pay2">
+        <h3>Pay</h3>
+        <p>Get your money on email</p>
+      </ion-label>
+    </ion-item>
+
+    <br />
+
+    <ion-item href="#">
+      <ion-avatar slot="start">
+        <div class="cardimage">
+          <img
+            src="../../../assets/paywallet2.png"
+            class="person1"
+            routerLink="/pay2"
+          />
+        </div>
+      </ion-avatar>
+      <ion-label class="ab" routerLink="/pay2">
+        <h3>Send Money to Bank</h3>
+        <p>Get your money on email</p>
+      </ion-label>
+    </ion-item>
+    <br />
+    <ion-item href="#">
+      <ion-avatar slot="start">
+        <div class="cardimage">
+          <img
+            src="../../../assets/paywallet3.png"
+            class="person1"
+            routerLink="/pay2"
+          />
+        </div>
+      </ion-avatar>
+      <ion-label class="ab" routerLink="/pay2">
+        <h3>Offers</h3>
+        <p>Get your money on email</p>
+      </ion-label>
+    </ion-item>
+    <br />
+    <ion-item href="#">
+      <ion-avatar slot="start" lines="none">
+        <div class="cardimage">
+          <img
+            src="../../../assets/paywallet4.png"
+            class="person1"
+            routerLink="/pay2"
+          />
+        </div>
+      </ion-avatar>
+      <ion-label class="a" routerLink="/pay2">
+        <h3>Total Cashback Earned</h3>
+        <p>Get your money on email</p>
+      </ion-label>
+    </ion-item>
+    <br />
+    <ion-item href="#">
+      <ion-avatar slot="start">
+        <div class="cardimage">
+          <img
+            src="../../../assets/paywallet5.png"
+            class="person1"
+            routerLink="/pay2"
+          />
+        </div>
+      </ion-avatar>
+      <ion-label class="a" routerLink="/pay2">
+        <h3>Request Wallet Statement</h3>
+        <p>Get your money on email</p>
+      </ion-label>
+    </ion-item>
+  </ion-list>
+</ion-card>

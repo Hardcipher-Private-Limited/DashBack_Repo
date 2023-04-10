@@ -1,0 +1,51 @@
+.Transfer {
+  margin-left: 50px !important;
+  margin-top: 1vh !important;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px !important;
+}
+ion-textarea {
+  border: hidden;
+}
+.custom-input-field {
+  background: #f7f8f9;
+  width: 100%;
+  border: 1px solid #e8ecf4;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 2vw;
+  color: #000;
+  font-size: 4vw;
+  height: 14vw;
+  padding-left: 5vw;
+  padding-right: 15vw;
+}
+.input {
+  margin-left: 5vw;
+  margin-right: 10vw;
+}
+.logo {
+  margin-top: 5vh;
+  margin-left: 7vw;
+}
+.para {
+  align-items: center;
+  margin-left: 14vw;
+  // // padding: 2%;
+  margin-right: 2vw;
+  // // margin-bottom: 10vh;
+  display: flex;
+
+  align-items: center;
+}
+span {
+  padding: 10px;
+  margin-top: -50px;
+}
+ion-button {
+  margin-left: 2vw;
+  padding-left: 2vw;
+  margin-top: 60vh;
+  padding-right: 7vw;
+}

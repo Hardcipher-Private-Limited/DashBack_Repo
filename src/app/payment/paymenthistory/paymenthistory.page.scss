@@ -1,0 +1,56 @@
+.Transaction {
+  margin-left: 30px !important;
+  margin-top: 1vh !important;
+  font-family: "Montserrat";
+
+  font-weight: 600;
+  font-size: 22px !important;
+}
+.person1 {
+  margin-left: 2vw;
+  max-width: 400%;
+  max-height: 100%;
+  object-fit: fill;
+  text-align: center;
+}
+// .f {
+//   display: flex;
+//   margin-left: 2em;
+//   align-items: center;
+// }
+.f2 {
+  display: flex;
+  align-items: end;
+  left: 80px;
+  color: red;
+  font-family: Montserrat;
+  font-family: "Montserrat";
+
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+}
+.f1 {
+  display: flex;
+  align-items: end;
+  left: 80px;
+  color: green;
+  font-family: Montserrat;
+  font-family: "Montserrat";
+  border: none;
+
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+}
+.a {
+  position: relative;
+  margin-left: 10px;
+  font-family: Montserrat;
+  font-size: 14px;
+  line-height: 17px;
+  border: none;
+}
+ion-item {
+  border: hidden;
+}

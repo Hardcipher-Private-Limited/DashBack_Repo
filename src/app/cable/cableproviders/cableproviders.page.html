@@ -1,0 +1,399 @@
+<ion-content>
+  <div class="pay1">
+    <ion-grid>
+      <ion-card-header>
+        <ion-row class="row">
+          <a routerLink="/home">
+            <img src="assets/back.png" alt="back_icon2" />
+          </a>
+          <span class="DTH">Search DTH Providers</span>
+        </ion-row>
+      </ion-card-header>
+    </ion-grid>
+  </div>
+  <div class="input">
+    <ion-col size="12">
+      <input
+        type="tel"
+        class="custom-input-field"
+        placeholder="Search by provider"
+        required
+      />
+    </ion-col>
+  </div>
+
+  <div class="flex">
+    <ion-content
+      [scrollEvents]="true"
+      (ionScrollStart)="handleScrollStart()"
+      (ionScroll)="handleScroll($any($event))"
+      (ionScrollEnd)="handleScrollEnd()"
+      class="ion-padding"
+    >
+      <ion-list lines="none">
+        <ion-item>
+          <ion-avatar slot="start">
+            <div class="img">
+              <img
+                src="../../../assets/Cable Providers/ACT.svg"
+                class="person1"
+                routerLink="/cablepage1"
+              />
+            </div>
+          </ion-avatar>
+          <ion-label class="a" routerLink="/cablepage1">
+            <h3>ACT TV</h3>
+          </ion-label>
+        </ion-item>
+        <br />
+        <ion-item>
+          <ion-avatar slot="start">
+            <div class="img1">
+              <img
+                src="../../../assets/Cable Providers/globalcable.svg"
+                class="person1"
+                routerLink="/cablepage1"
+              />
+            </div>
+          </ion-avatar>
+          <ion-label class="a" routerLink="/cablepage1">
+            <h3>Alka Vishwadarshan</h3>
+          </ion-label>
+        </ion-item>
+        <br />
+
+        <ion-item>
+          <ion-avatar slot="start">
+            <div class="img1">
+              <img
+                src="../../../assets/Cable Providers/globalcable.svg"
+                class="person1"
+                routerLink="/cablepage1"
+              />
+            </div>
+          </ion-avatar>
+          <ion-label class="a" routerLink="/cablepage1">
+            <h3>Ambiga Digital Vision</h3>
+          </ion-label>
+        </ion-item>
+        <br />
+
+        <ion-item>
+          <ion-avatar slot="start">
+            <div class="img1">
+              <img
+                src="../../../assets/Cable Providers/globalcable.svg"
+                class="person1"
+                routerLink="/cablepage1"
+              />
+            </div>
+          </ion-avatar>
+          <ion-label class="a" routerLink="/cablepage1">
+            <h3>Amrita Cable Providers</h3>
+          </ion-label>
+        </ion-item>
+        <br />
+        <ion-item>
+          <ion-avatar slot="start">
+            <div class="img1">
+              <img
+                src="../../../assets/Cable Providers/aryancable.svg"
+                class="person1"
+                routerLink="/cablepage1"
+              />
+            </div>
+          </ion-avatar>
+          <ion-label class="a" routerLink="/cablepage1">
+            <h3>Aryan Cable Network</h3>
+          </ion-label>
+        </ion-item>
+        <br />
+
+        <ion-item>
+          <ion-avatar slot="start">
+            <div class="img2">
+              <img
+                src="../../../assets/Cable Providers/Asianet.svg"
+                class="person1"
+                routerLink="/cablepage1"
+              />
+            </div>
+          </ion-avatar>
+          <ion-label class="a" routerLink="/cablepage1">
+            <h3>Asianet Digital</h3>
+          </ion-label>
+        </ion-item>
+        <br />
+        <ion-item>
+          <ion-avatar slot="start">
+            <div class="img1">
+              <img
+                src="../../../assets/Cable Providers/globalcable.svg"
+                class="person1"
+                routerLink="/cablepage1"
+              />
+            </div>
+          </ion-avatar>
+          <ion-label class="a" routerLink="/cablepage1">
+            <h3>COCHIN CABLE VISION</h3>
+          </ion-label>
+        </ion-item>
+        <br />
+        <ion-item>
+          <ion-avatar slot="start">
+            <div class="img1">
+              <img
+                src="../../../assets/Cable Providers/globalcable.svg"
+                class="person1"
+                routerLink="/cablepage1"
+              />
+            </div>
+          </ion-avatar>
+          <ion-label class="a" routerLink="/cablepage1">
+            <h3>Deetech Cable Network</h3>
+          </ion-label>
+        </ion-item>
+        <br />
+        <ion-item>
+          <ion-avatar slot="start">
+            <div class="img1">
+              <img
+                src="../../../assets/Cable Providers/gtplcable.svg"
+                class="person1"
+                routerLink="/cablepage1"
+              />
+            </div>
+          </ion-avatar>
+          <ion-label class="a" routerLink="/cablepage1">
+            <h3>GTPL Hathway Limited</h3>
+          </ion-label>
+        </ion-item>
+        <br />
+        <ion-item>
+          <ion-avatar slot="start">
+            <div class="img1">
+              <img
+                src="../../../assets/Cable Providers/globalcable.svg"
+                class="person1"
+                routerLink="/cablepage1"
+              />
+            </div>
+          </ion-avatar>
+          <ion-label class="a" routerLink="/cablepage1">
+            <h3>Golden Cable Network</h3>
+          </ion-label>
+        </ion-item>
+        <br />
+        <ion-item>
+          <ion-avatar slot="start">
+            <div class="img1">
+              <img
+                src="../../../assets/Cable Providers/globalcable.svg"
+                class="person1"
+                routerLink="/cablepage1"
+              />
+            </div>
+          </ion-avatar>
+          <ion-label class="a" routerLink="/cablepage1">
+            <h3>Hathway Postpaid Digital Cable TV</h3>
+          </ion-label>
+        </ion-item>
+        <br />
+        <ion-item>
+          <ion-avatar slot="start">
+            <div class="img1">
+              <img
+                src="../../../assets/Cable Providers/INDigital.svg"
+                class="person1"
+                routerLink="/cablepage1"
+              />
+            </div>
+          </ion-avatar>
+          <ion-label class="a" routerLink="/cablepage1">
+            <h3>INDigital</h3>
+          </ion-label>
+        </ion-item>
+        <br />
+        <ion-item>
+          <ion-avatar slot="start">
+            <div class="img1">
+              <img
+                src="../../../assets/Cable Providers/intermediacable.svg"
+                class="person1"
+                routerLink="/cablepage1"
+              />
+            </div>
+          </ion-avatar>
+          <ion-label class="a" routerLink="/cablepage1">
+            <h3>Intermedia Cable Communication</h3>
+          </ion-label>
+        </ion-item>
+        <br />
+        <ion-item>
+          <ion-avatar slot="start">
+            <div class="img2">
+              <img
+                src="../../../assets/Cable Providers/newairnet.svg"
+                class="person1"
+                routerLink="/cablepage1"
+              />
+            </div>
+          </ion-avatar>
+          <ion-label class="a" routerLink="/cablepage1">
+            <h3>New Airnet Cable</h3>
+          </ion-label>
+        </ion-item>
+        <br />
+        <ion-item>
+          <ion-avatar slot="start">
+            <div class="img1">
+              <img
+                src="../../../assets/Cable Providers/paymytv.svg"
+                class="person1"
+                routerLink="/cablepage1"
+              />
+            </div>
+          </ion-avatar>
+          <ion-label class="a" routerLink="/cablepage1">
+            <h3>Paymytv-Den</h3>
+          </ion-label>
+        </ion-item>
+        <br />
+        <ion-item>
+          <ion-avatar slot="start">
+            <div class="img1">
+              <img
+                src="../../../assets/Cable Providers/paymytv.svg"
+                class="person1"
+                routerLink="/cablepage1"
+              />
+            </div>
+          </ion-avatar>
+          <ion-label class="a" routerLink="/cablepage1">
+            <h3>Paymytv-Hathway</h3>
+          </ion-label>
+        </ion-item>
+        <br />
+        <ion-item>
+          <ion-avatar slot="start">
+            <div class="img1">
+              <img
+                src="../../../assets/Cable Providers/globalcable.svg"
+                class="person1"
+                routerLink="/cablepage1"
+              />
+            </div>
+          </ion-avatar>
+          <ion-label class="a" routerLink="/cablepage1">
+            <h3>Poochakal Cable Vision</h3>
+          </ion-label>
+        </ion-item>
+        <br />
+        <ion-item>
+          <ion-avatar slot="start">
+            <div class="img1">
+              <img
+                src="../../../assets/Cable Providers/sanglimedia.svg"
+                class="person1"
+                routerLink="/cablepage1"
+              />
+            </div>
+          </ion-avatar>
+          <ion-label class="a" routerLink="/cablepage1">
+            <h3>Sangli Media Communication</h3>
+          </ion-label>
+        </ion-item>
+        <br />
+        <ion-item>
+          <ion-avatar slot="start">
+            <div class="img1">
+              <img
+                src="../../../assets/Cable Providers/satellitecable.svg"
+                class="person1"
+                routerLink="/cablepage1"
+              />
+            </div>
+          </ion-avatar>
+          <ion-label class="a" routerLink="/cablepage1">
+            <h3>Satellite Cable Communication</h3>
+          </ion-label>
+        </ion-item>
+        <br />
+        <ion-item>
+          <ion-avatar slot="start">
+            <div class="img1">
+              <img
+                src="../../../assets/Cable Providers/globalcable.svg"
+                class="person1"
+                routerLink="/cablepage1"
+              />
+            </div>
+          </ion-avatar>
+          <ion-label class="a" routerLink="/cablepage1">
+            <h3>St Sebastian Cable Network</h3>
+          </ion-label>
+        </ion-item>
+        <br />
+        <ion-item>
+          <ion-avatar slot="start">
+            <div class="img">
+              <img
+                src="../../../assets/Cable Providers/globalcable.svg"
+                class="person1"
+                routerLink="/cablepage1"
+              />
+            </div>
+          </ion-avatar>
+          <ion-label class="a" routerLink="/cablepage1">
+            <h3>Star Samir Cable Network</h3>
+          </ion-label>
+        </ion-item>
+        <br />
+        <ion-item>
+          <ion-avatar slot="start">
+            <div class="img1">
+              <img
+                src="../../../assets/Cable Providers/tcn.svg"
+                class="person1"
+                routerLink="/cablepage1"
+              />
+            </div>
+          </ion-avatar>
+          <ion-label class="a" routerLink="/cablepage1">
+            <h3>TCN Digital</h3>
+          </ion-label>
+        </ion-item>
+        <br />
+        <ion-item>
+          <ion-avatar slot="start">
+            <div class="img1">
+              <img
+                src="../../../assets/Cable Providers/ucn.svg"
+                class="person1"
+                routerLink="/cablepage1"
+              />
+            </div>
+          </ion-avatar>
+          <ion-label class="a" routerLink="/cablepage1">
+            <h3>UCN Cable</h3>
+          </ion-label>
+        </ion-item>
+        <br />
+        <ion-item>
+          <ion-avatar slot="start">
+            <div class="img1">
+              <img
+                src="../../../assets/Cable Providers/vdv.svg"
+                class="person1"
+                routerLink="/cablepage1"
+              />
+            </div>
+          </ion-avatar>
+          <ion-label class="a" routerLink="/cablepage1">
+            <h3>VDV Cable</h3>
+          </ion-label>
+        </ion-item>
+      </ion-list>
+    </ion-content>
+  </div></ion-content
+>

@@ -1,0 +1,65 @@
+<ion-content>
+  <div class="pay1">
+    <ion-grid>
+      <ion-card-header>
+        <ion-row class="row">
+          <a routerLink="/paymenthistory">
+            <img src="assets/back.png" alt="back_icon2" />
+          </a>
+          <span class="Transfer">Bank Name</span>
+        </ion-row>
+      </ion-card-header>
+    </ion-grid>
+  </div>
+  <ion-item lines="none">
+    <img
+      class="hdfc"
+      src="../../../assets/Fastag/page2/HDFCfastagpage2.svg"
+      routerLink="/fastagpage1"
+    />
+    <ion-label class="bank" routerLink="/fastagpage1">
+      <h3>Raj Chauhan</h3>
+      <p class="p1">xxxx xxxx xxxx 2233</p>
+    </ion-label>
+  </ion-item>
+  <h6>Bill Details:</h6>
+  <span class="CName">Customer Name</span>
+  <span class="colon"> : </span>
+  <span class="CustomerName">Raj Chuhan</span>
+  <br /><br />
+  <span class="FastBalance">FASTag Balanace</span>
+  <span class="colon1"> : </span>
+  <span class="Money">₹500</span>
+  <br /><br />
+  <span class="VehicleModal">Vehicle Modal</span>
+  <span class="colon2"> : </span>
+  <span class="VehicleName">Tata Altroz</span>
+  <br /><br />
+  <br />
+  <div class="input">
+    <ion-col size="12">
+      <input
+        type="tel"
+        class="custom-input-field"
+        placeholder="Enter Amount"
+        shape="round"
+        required
+      />
+    </ion-col>
+  </div>
+  <p>Recommended</p>
+  <ion-row class="row">
+    <ion-button class="btn">+500</ion-button>
+    <ion-button class="btn">+700</ion-button>
+    <ion-button class="btn">+900</ion-button>
+  </ion-row>
+
+  <ion-button
+    class="long-btn"
+    shape="round"
+    routerLink="/fastagpage1"
+    size="small"
+    (click)="onClick($event)"
+    >Proceed to Pay</ion-button
+  >
+</ion-content>

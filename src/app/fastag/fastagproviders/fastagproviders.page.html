@@ -1,0 +1,500 @@
+<ion-content>
+  <div class="pay1">
+    <ion-grid>
+      <ion-card-header>
+        <ion-row class="row">
+          <a routerLink="/paymenthistory">
+            <img src="assets/back.png" alt="back_icon2" />
+          </a>
+          <span class="Transfer">Search FASTag Providers</span>
+        </ion-row>
+      </ion-card-header>
+    </ion-grid>
+  </div>
+  <div class="input">
+    <ion-col size="12">
+      <input
+        type="tel"
+        class="custom-input-field"
+        placeholder="Search by provider"
+        required
+      />
+    </ion-col>
+  </div>
+
+  <div class="flex">
+    <ion-content
+      [scrollEvents]="true"
+      (ionScrollStart)="handleScrollStart()"
+      (ionScroll)="handleScroll($any($event))"
+      (ionScrollEnd)="handleScrollEnd()"
+      class="ion-padding"
+    >
+      <ion-list lines="none">
+        <ion-item>
+          <ion-avatar slot="start">
+            <div class="img">
+              <img
+                src="../../../assets/airtelfastag.svg"
+                class="person1"
+                routerLink="/fastagpage1"
+              />
+            </div>
+          </ion-avatar>
+          <ion-label class="a" routerLink="/fastagpage1">
+            <h3>Airtel Payment Bank NETC FASTag</h3>
+          </ion-label>
+        </ion-item>
+        <br />
+
+        <ion-item>
+          <ion-avatar slot="start">
+            <div class="img1">
+              <img
+                src="../../../assets/axisfastag.svg"
+                class="person1"
+                routerLink="/fastagpage1"
+              />
+            </div>
+          </ion-avatar>
+          <ion-label class="a" routerLink="/fastagpage1">
+            <h3>Axis Bank FASTag</h3>
+          </ion-label>
+        </ion-item>
+        <br />
+
+        <ion-item>
+          <ion-avatar slot="start">
+            <div class="img1">
+              <img
+                src="../../../assets/barodafastag.svg"
+                class="person1"
+                routerLink="/fastagpage1"
+              />
+            </div>
+          </ion-avatar>
+          <ion-label class="a" routerLink="/fastagpage1">
+            <h3>Bank of Baroda - FASTag</h3>
+          </ion-label>
+        </ion-item>
+        <br />
+
+        <ion-item>
+          <ion-avatar slot="start">
+            <div class="img1">
+              <img
+                src="../../../assets/hdfcfastag.svg"
+                class="person1"
+                routerLink="/fastagpage1"
+              />
+            </div>
+          </ion-avatar>
+          <ion-label class="a" routerLink="/fastagpage1">
+            <h3>HDFC Bank - FASTag</h3>
+          </ion-label>
+        </ion-item>
+        <br />
+
+        <ion-item>
+          <ion-avatar slot="start">
+            <div class="img1">
+              <img
+                src="../../../assets/icicifastag.svg"
+                class="person1"
+                routerLink="/fastagpage1"
+              />
+            </div>
+          </ion-avatar>
+          <ion-label class="a" routerLink="/pay2">
+            <h3>ICICI Bank FASTag</h3>
+          </ion-label>
+        </ion-item>
+        <br />
+
+        <ion-item>
+          <ion-avatar slot="start">
+            <div class="img1">
+              <img
+                src="../../../assets/Fastag/IDBIFastag.svg"
+                class="person1"
+                routerLink="/fastagpage1"
+              />
+            </div>
+          </ion-avatar>
+          <ion-label class="a" routerLink="/fastagpage1">
+            <h3>IDBI Bank FASTag</h3>
+          </ion-label>
+        </ion-item>
+        <br />
+
+        <ion-item>
+          <ion-avatar slot="start">
+            <div class="img1">
+              <img
+                src="../../../assets/Fastag/IDFCFastag.svg"
+                class="person1"
+                routerLink="/fastagpage1"
+              />
+            </div>
+          </ion-avatar>
+          <ion-label class="a" routerLink="/fastagpage1">
+            <h3>IDFC First Bank-FASTag</h3>
+          </ion-label>
+        </ion-item>
+        <br />
+
+        <ion-item>
+          <ion-avatar slot="start">
+            <div class="img1">
+              <img
+                src="../../../assets/Fastag/sbifastag.svg"
+                class="person1"
+                routerLink="/fastagpage1"
+              />
+            </div>
+          </ion-avatar>
+          <ion-label class="a" routerLink="/fastagpage1">
+            <h3>State Bank of India-NETC FASTag</h3>
+          </ion-label>
+        </ion-item>
+        <br />
+        <ion-item>
+          <ion-avatar slot="start">
+            <div class="img1">
+              <img
+                src="../../../assets/Fastag/AUfastag.svg"
+                class="person1"
+                routerLink="/fastagpage1"
+              />
+            </div>
+          </ion-avatar>
+          <ion-label class="a" routerLink="/fastagpage1">
+            <h3>AU Small Finance Bank FASTag</h3>
+          </ion-label>
+        </ion-item>
+        <br />
+
+        <ion-item>
+          <ion-avatar slot="start">
+            <div class="img1">
+              <img
+                src="../../../assets/Fastag//bankofmaharastrafastag.svg"
+                class="person1"
+                routerLink="/fastagpage1"
+              />
+            </div>
+          </ion-avatar>
+          <ion-label class="a" routerLink="/fastagpage1">
+            <h3>Bank of Maharastra FASTag</h3>
+          </ion-label>
+        </ion-item>
+        <br />
+
+        <ion-item>
+          <ion-avatar slot="start">
+            <div class="img1">
+              <img
+                src="../../../assets/Fastag/canarafastag.svg"
+                class="person1"
+                routerLink="/fastagpage1"
+              />
+            </div>
+          </ion-avatar>
+          <ion-label class="a" routerLink="/fastagpage1">
+            <h3>Canara Bank FASTag</h3>
+          </ion-label>
+        </ion-item>
+        <br />
+
+        <ion-item>
+          <ion-avatar slot="start">
+            <div class="img1">
+              <img
+                src="../../../assets/Fastag/cityunionfastag.svg"
+                class="person1"
+                routerLink="/fastagpage1"
+              />
+            </div>
+          </ion-avatar>
+          <ion-label class="a" routerLink="/fastagpage1">
+            <h3>City Union Bank Ltd FASTag</h3>
+          </ion-label>
+        </ion-item>
+        <br />
+
+        <ion-item>
+          <ion-avatar slot="start">
+            <div class="img1">
+              <img
+                src="../../../assets/Fastag/Equitasfastag.svg"
+                class="person1"
+                routerLink="/fastagpage1"
+              />
+            </div>
+          </ion-avatar>
+          <ion-label class="a" routerLink="/fastagpage1">
+            <h3>Equitas FASTag Recharge</h3>
+          </ion-label>
+        </ion-item>
+        <br />
+
+        <ion-item>
+          <ion-avatar slot="start">
+            <div class="img2">
+              <img
+                src="../../../assets/Fastag/fedralfastag.svg"
+                class="person1"
+                routerLink="/fastagpage1"
+              />
+            </div>
+          </ion-avatar>
+          <ion-label class="a" routerLink="/fastagpage1">
+            <h3>Fedral Bank-FASTag</h3>
+          </ion-label>
+        </ion-item>
+        <br />
+
+        <ion-item>
+          <ion-avatar slot="start">
+            <div class="img2">
+              <img
+                src="../../../assets/Fastag/IndianoverseasFastag.svg"
+                class="person1"
+                routerLink="/fastagpage1"
+              />
+            </div>
+          </ion-avatar>
+          <ion-label class="a" routerLink="/fastagpage1">
+            <h3>IOB FASTag</h3>
+          </ion-label>
+        </ion-item>
+        <br />
+
+        <ion-item>
+          <ion-avatar slot="start">
+            <div class="img2">
+              <img
+                src="../../../assets/Fastag/Indianbankfastag.svg"
+                class="person1"
+                routerLink="/fastagpage1"
+              />
+            </div>
+          </ion-avatar>
+          <ion-label class="a" routerLink="/fastagpage1">
+            <h3>Indian Bank FASTag Recharge</h3>
+          </ion-label>
+        </ion-item>
+        <br />
+
+        <ion-item>
+          <ion-avatar slot="start">
+            <div class="img1">
+              <img
+                src="../../../assets/Fastag/Indiahighwayfastag.svg"
+                class="person1"
+                routerLink="/fastagpage1"
+              />
+            </div>
+          </ion-avatar>
+          <ion-label class="a" routerLink="/fastagpage1">
+            <h3>Indian Highway Management FASTag</h3>
+          </ion-label>
+        </ion-item>
+        <br />
+
+        <ion-item>
+          <ion-avatar slot="start">
+            <div class="img2">
+              <img
+                src="../../../assets/Fastag/IndusIndFastag.svg"
+                class="person1"
+                routerLink="/fastagpage1"
+              />
+            </div>
+          </ion-avatar>
+          <ion-label class="a" routerLink="/fastagpage1">
+            <h3>IndusInd Bank FASTag</h3>
+          </ion-label>
+        </ion-item>
+        <br />
+
+        <ion-item>
+          <ion-avatar slot="start">
+            <div class="img2">
+              <img
+                src="../../../assets/Fastag/J&KFastag.svg"
+                class="person1"
+                routerLink="/fastagpage1"
+              />
+            </div>
+          </ion-avatar>
+          <ion-label class="a" routerLink="/fastagpage1">
+            <h3>Jammu nd Kashmir Bank Fastag</h3>
+          </ion-label>
+        </ion-item>
+        <br />
+
+        <ion-item>
+          <ion-avatar slot="start">
+            <div class="img2">
+              <img
+                src="../../../assets/Fastag/karnatakafastag.svg"
+                class="person1"
+                routerLink="/fastagpage1"
+              />
+            </div>
+          </ion-avatar>
+          <ion-label class="a" routerLink="/fastagpage1">
+            <h3>Karnataka Bank FASTag</h3>
+          </ion-label>
+        </ion-item>
+        <br />
+
+        <ion-item>
+          <ion-avatar slot="start">
+            <div class="img1">
+              <img
+                src="../../../assets/Fastag/karurvysyaFastag.svg"
+                class="person1"
+                routerLink="/fastagpage1"
+              />
+            </div>
+          </ion-avatar>
+          <ion-label class="a" routerLink="/fastagpage1">
+            <h3>Karur Vysya Bank FASTag</h3>
+          </ion-label>
+        </ion-item>
+        <br />
+
+        <ion-item>
+          <ion-avatar slot="start">
+            <div class="img1">
+              <img
+                src="../../../assets/Fastag/kotakFastag.svg"
+                class="person1"
+                routerLink="/fastagpage1"
+              />
+            </div>
+          </ion-avatar>
+          <ion-label class="a" routerLink="/fastagpage1">
+            <h3>Kotak Mahindra Bank FASTag</h3>
+          </ion-label>
+        </ion-item>
+        <br />
+
+        <ion-item>
+          <ion-avatar slot="start">
+            <div class="img1">
+              <img
+                src="../../../assets/Fastag/livQuickFastag.svg"
+                class="person1"
+                routerLink="/fastagpage1"
+              />
+            </div>
+          </ion-avatar>
+          <ion-label class="a" routerLink="/fastagpage1">
+            <h3>LivQuick Technology Indian Pvt.Ltd.</h3>
+          </ion-label>
+        </ion-item>
+        <br />
+
+        <ion-item>
+          <ion-avatar slot="start">
+            <div class="img2">
+              <img
+                src="../../../assets/Fastag/PaytmFastag.svg"
+                class="person1"
+                routerLink="/fastagpage1"
+              />
+            </div>
+          </ion-avatar>
+          <ion-label class="a" routerLink="/fastagpage1">
+            <h3>PaytmPayment Bank FASTag</h3>
+          </ion-label>
+        </ion-item>
+        <br />
+
+        <ion-item>
+          <ion-avatar slot="start">
+            <div class="img1">
+              <img
+                src="../../../assets/Fastag/punjabFastag.svg"
+                class="person1"
+                routerLink="/fastagpage1"
+              />
+            </div>
+          </ion-avatar>
+          <ion-label class="a" routerLink="/fastagpage1">
+            <h3>Punjab National Bank FASTag</h3>
+          </ion-label>
+        </ion-item>
+
+        <br />
+
+        <ion-item>
+          <ion-avatar slot="start">
+            <div class="img1">
+              <img
+                src="../../../assets/Fastag/southindiabankFastag.svg"
+                class="person1"
+                routerLink="/fastagpage1"
+              />
+            </div>
+          </ion-avatar>
+          <ion-label class="a" routerLink="/fastagpage1">
+            <h3>South India Bank FASTag</h3>
+          </ion-label>
+        </ion-item>
+        <br />
+
+        <ion-item>
+          <ion-avatar slot="start">
+            <div class="img1">
+              <img
+                src="../../../assets/Fastag/UCObankFastag.svg"
+                class="person1"
+                routerLink="/fastagpage1"
+              />
+            </div>
+          </ion-avatar>
+          <ion-label class="a" routerLink="/fastagpage1">
+            <h3>Airtel Payment Bank NETC FASTag</h3>
+          </ion-label>
+        </ion-item>
+
+        <br />
+
+        <ion-item>
+          <ion-avatar slot="start">
+            <div class="img2">
+              <img
+                src="../../../assets/Fastag/unionbankfastag.svg"
+                class="person1"
+                routerLink="/fastagpage1"
+              />
+            </div>
+          </ion-avatar>
+          <ion-label class="a" routerLink="/fastagpage1">
+            <h3>Union Bank of India FASTag</h3>
+          </ion-label>
+        </ion-item>
+        <br />
+
+        <ion-item>
+          <ion-avatar slot="start">
+            <div class="img2">
+              <img
+                src="../../../assets/Fastag/yesbankFastag.svg"
+                class="person1"
+                routerLink="/fastagpage1"
+              />
+            </div>
+          </ion-avatar>
+          <ion-label class="a" routerLink="/fastagpage1">
+            <h3>Yes Bank FASTag</h3>
+          </ion-label>
+        </ion-item>
+      </ion-list>
+    </ion-content>
+  </div></ion-content
+>

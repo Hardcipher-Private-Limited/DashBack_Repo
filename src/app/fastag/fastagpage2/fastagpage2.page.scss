@@ -1,0 +1,96 @@
+.Transfer {
+  margin-left: 50px !important;
+  margin-top: 1vh !important;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px !important;
+}
+ion-textarea {
+  border: hidden;
+}
+
+.bank {
+  max-width: 100%;
+  margin-top: 3vh;
+  margin-left: 10vw;
+  font-size: larger;
+  border: none;
+}
+.name {
+  margin-left: 30vw;
+  margin-bottom: 20px;
+}
+ion-item {
+  border: none;
+}
+h3 {
+  font-weight: bold;
+}
+.p1 {
+  margin-left: 1px;
+}
+.hdfc {
+  margin-left: 4vw;
+}
+h6 {
+  font-weight: bold;
+  margin-left: 6vw;
+  margin-top: 4vh;
+}
+.CName {
+  margin-left: 5.9vw;
+}
+.colon {
+  margin-left: 11vw;
+}
+.CustomerName {
+  margin-left: 14vw;
+}
+.FastBalance {
+  margin-left: 5.9vw;
+}
+.colon1 {
+  margin-left: 10vw;
+}
+.Money {
+  margin-left: 27vw;
+}
+.VehicleModal {
+  margin-left: 5.9vw;
+}
+.colon2 {
+  margin-left: 16.6vw;
+}
+.VehicleName {
+  margin-left: 13vw;
+}
+.input {
+  margin-left: 30px;
+  margin-right: 40px;
+  padding-right: 5px;
+  border: 2px solid grey;
+  align-items: center;
+}
+p {
+  margin-left: 8vw;
+}
+.abb {
+  margin-left: 6.2vw;
+}
+.ion-button {
+  color: #eef4ff;
+}
+.long-btn {
+  margin-left: 2vw;
+  padding-left: 2vw;
+  margin-top: 27vh;
+  padding-right: 7vw;
+}
+.btn {
+  --background: #eef4ff;
+  color: #09376e;
+  width: 20vw;
+  // padding: 5vw;
+  margin-left: 9vw;
+}

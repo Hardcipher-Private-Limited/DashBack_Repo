@@ -1,0 +1,44 @@
+<ion-content>
+  <div class="pay1">
+    <ion-grid>
+      <ion-card-header>
+        <ion-row class="row">
+          <a routerLink="/paymenthistory">
+            <img src="assets/back.png" alt="back_icon2" />
+          </a>
+          <span class="Transfer">Bank Name</span>
+        </ion-row>
+      </ion-card-header>
+    </ion-grid>
+  </div>
+  <div class="input">
+    <ion-input
+      label="Solid input"
+      class="SubscriberId"
+      class="custom-input-field"
+      labelPlacement="stacked"
+      type="input"
+      placeholder="Custmer ID"
+      fill="solid"
+    >
+    </ion-input>
+
+    <h6 class="inputContent">Please enter 10 Digit valid Custmer ID</h6>
+  </div>
+  <div class="logo">
+    <img src="../../../assets/Fastag/page1/DB_LOGO 1.svg" alt="logo" />
+
+    <span class="para"
+      >Paying this bill allow Dashback to fetch your current and future bills so
+      that you can view and pay them.</span
+    >
+  </div>
+  <ion-button
+    routerLink="/fastagpage2"
+    class="long-btn"
+    shape="round"
+    size="small"
+    (click)="onClick($event)"
+    >Confirm</ion-button
+  ><br />
+</ion-content>

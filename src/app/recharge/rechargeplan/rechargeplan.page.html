@@ -1,0 +1,108 @@
+<ion-content>
+  <div class="pay1">
+    <ion-grid>
+      <ion-card-header>
+        <ion-row class="row">
+          <a routerLink="/paymenthistory">
+            <img src="assets/back.png" alt="back_icon2" />
+          </a>
+          <span class="recharge">Select a Recharge Plan</span>
+        </ion-row>
+      </ion-card-header>
+    </ion-grid>
+  </div>
+  <ion-item lines="none">
+    <img
+      class="airtel"
+      src="../../../assets/recharge/airtellogo.svg"
+      routerLink="/fastagpage1"
+    />
+    <ion-label class="bank" routerLink="/fastagpage1">
+      <h2>Lorem ipsum</h2>
+      <p class="p1">9068210791</p>
+    </ion-label>
+  </ion-item>
+
+  <br /><br />
+
+  <ion-button id="popover-button" class="btn" fill="outline" shape="round"
+    >Airtel</ion-button
+  >
+  <ion-popover trigger="popover-button" [dismissOnSelect]="true">
+    <ng-template>
+      <ion-content>
+        <ion-list>
+          <ion-item [button]="true" [detail]="false">Option 1</ion-item>
+          <ion-item [button]="true" [detail]="false">Option 2</ion-item>
+          <ion-item [button]="true" id="nested-trigger"
+            >More options...</ion-item
+          >
+
+          <ion-popover
+            trigger="nested-trigger"
+            [dismissOnSelect]="true"
+            side="end"
+          >
+            <ng-template>
+              <ion-content>
+                <ion-list>
+                  <ion-item [button]="true" [detail]="false"
+                    >Nested option</ion-item
+                  >
+                </ion-list>
+              </ion-content>
+            </ng-template>
+          </ion-popover>
+        </ion-list>
+      </ion-content>
+    </ng-template>
+  </ion-popover>
+
+  <ion-button id="popover-button" class="btn2" fill="outline" shape="round"
+    >Uttar Pradesh</ion-button
+  >
+  <ion-popover trigger="popover-button" [dismissOnSelect]="true">
+    <ng-template>
+      <ion-content>
+        <ion-list>
+          <ion-item [button]="true" [detail]="false">Option 1</ion-item>
+          <ion-item [button]="true" [detail]="false">Option 2</ion-item>
+          <ion-item [button]="true" id="nested-trigger"
+            >More options...</ion-item
+          >
+
+          <ion-popover
+            trigger="nested-trigger"
+            [dismissOnSelect]="true"
+            side="end"
+          >
+            <ng-template>
+              <ion-content>
+                <ion-list>
+                  <ion-item [button]="true" [detail]="false"
+                    >Nested option</ion-item
+                  >
+                </ion-list>
+              </ion-content>
+            </ng-template>
+          </ion-popover>
+        </ion-list>
+      </ion-content>
+    </ng-template>
+  </ion-popover>
+
+  <br><br>
+  <p class="plan">Select a recharge plan</p>
+  <br>
+  <div class="input" >
+    <ion-col size="12">
+      <input
+        type="tel"
+        class="custom-input-field"
+        placeholder="Enter Amount"
+        shape="round"
+        required
+      />
+    </ion-col>
+  </div>
+</ion-content>

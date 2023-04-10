@@ -1,0 +1,148 @@
+.wallet {
+  margin-top: 5vh;
+  margin-left: 12vw;
+  margin-right: 5vw;
+  position: relative;
+}
+.wallet2 {
+  margin-top: -200px;
+  margin-left: 3vh;
+}
+.dashbackbalance {
+  margin-left: 6px;
+}
+.totalcashback {
+  margin-left: 30px;
+}
+.image {
+  margin-top: 1vh;
+}
+.logo {
+  width: 20vw;
+  margin-top: -2vh;
+  margin-left: 63px;
+  margin-bottom: 25vh;
+  width: 15vh;
+}
+.question {
+  margin-left: 38px;
+  margin-top: 1vh;
+  font-size: 5px;
+}
+
+ion-content {
+  --ion-background-color: #09376e;
+  position: relative;
+}
+
+.card1 {
+  position: absolute;
+  margin-top: 22vh;
+  height: 28vh;
+  margin-left: 4vw;
+  box-shadow: none;
+  width: 92vw;
+  border-radius: 20px;
+  // border: 1% 1% 1% 1% grey;
+}
+.card3 {
+  position: relative;
+  box-shadow: none;
+  margin-top: 25.9vh;
+  border-radius: 20px;
+}
+.frwd11 {
+  position: relative;
+  margin-right: 30px;
+}
+.label {
+  position: relative;
+  margin-left: 10px;
+  font-family: Montserrat;
+  font-size: 14px;
+  line-height: 17px;
+}
+.addmoney {
+  position: relative;
+  align-items: center;
+  left: 15vw;
+  line-height: 100%;
+  font-weight: 1000;
+  color: #09376e;
+}
+.long-btn {
+  font-size: 15px;
+  text-align: center;
+  margin-top: 1.1vh;
+}
+.custom-input-field {
+  background-color: white;
+  font-weight: bolder;
+  text-align: center;
+  font-size: 6vh;
+  border-color: #d4d4d4;
+}
+
+.inputbox {
+  text-align: center;
+  margin-top: 1.9vh;
+
+  ::placeholder {
+    color: #09376e;
+  }
+}
+
+.input1 {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: bolder;
+}
+.divider {
+  margin-left: 10vw;
+  margin-top: -20px;
+  font-weight: bolder;
+}
+h3 {
+  font-weight: bold;
+}
+p {
+  font-weight: 500;
+}
+ion-card {
+  border-top: 2px solid #d9d9d9;
+  border-left: 2px solid #d9d9d9;
+  border-right: 2px solid #d9d9d9;
+  border-bottom: 2px solid #d9d9d9;
+}
+ion-col {
+  --placeholder-color: #09376e;
+}
+.smallbutton {
+  margin-left: 3vw;
+  font-weight: bolder;
+}
+.card {
+  margin-left: 3vh;
+}
+.cardimage {
+  height: auto;
+  border: round($number: 2);
+
+  max-width: 80%;
+}
+.text1 {
+  font-weight: bolder;
+  font-size: 28px;
+  color: #ffffff;
+  margin-left: 2.5vw;
+}
+.text2 {
+  font-weight: bolder;
+  font-size: 30px;
+  color: #ffffff;
+  margin-left: 6vw;
+}
+
+ion-item {
+  border: none;
+}
