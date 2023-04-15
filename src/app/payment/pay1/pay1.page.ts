@@ -6,10 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./pay1.page.scss'],
 })
 export class Pay1Page implements OnInit {
-
+  
   constructor() { }
 
   ngOnInit() {
   }
+  
 
 }

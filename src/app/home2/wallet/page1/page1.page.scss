@@ -1,0 +1,66 @@
+.walletpage1 {
+  margin-left: 6px !important;
+  margin-top: 2vh !important;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 19px !important;
+}
+
+.row {
+  margin-top: 5vh;
+}
+.smallclass {
+  font-size: 14px;
+  margin-left: 6px !important;
+}
+.custom-input-field {
+  background: #f7f8f9;
+  width: 100%;
+  border: 1px solid #e8ecf4;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 2vw;
+  color: #000;
+  font-size: 4vw;
+  height: 14vw;
+  padding-left: 5vw;
+  padding-right: 15vw;
+  ::placeholder {
+    color: #09376e;
+  }
+}
+.input {
+  margin-left: 10vw;
+  margin-right: 10vw;
+  font-size: 30px;
+}
+ion-col {
+  --placeholder-color: #09376e;
+}
+ion-button {
+  margin-left: 2vw;
+  padding-left: 12vw;
+  margin-top: 4vh;
+  padding-right: 17vw;
+}
+.inputbox {
+  text-align: center;
+  margin-top: 1.9vh;
+
+  ::placeholder {
+    color: #09376e;
+  }
+  padding-left: 40px;
+  padding-right: 50px;
+  text-align: left;
+}
+
+.custom-input-field {
+  background-color: #e8ecf4;
+  font-weight: bolder;
+  text-align: center;
+  font-size: 2vh;
+  border-color: #d4d4d4;
+
+  text-align: start;
+}

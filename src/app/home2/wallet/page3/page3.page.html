@@ -1,0 +1,56 @@
+<ion-content>
+  <div class="pay1">
+    <ion-grid>
+      <ion-card-header>
+        <ion-row class="row">
+          <a routerLink="/paymenthistory">
+            <img src="assets/back.png" alt="back_icon2" />
+          </a>
+          <span class="walletpage3">Add New Bank Account</span>
+        </ion-row>
+      </ion-card-header>
+    </ion-grid>
+  </div>
+  <div class="inputbox1">
+    <ion-col size="12">
+      <input
+        type="tel"
+        class="custom-input-field"
+        placeholder="Enter Account no."
+        required
+      />
+    </ion-col>
+  </div>
+  <br />
+  <br />
+  <div class="parent">
+    <div class="inputbox2">
+      <input
+        type="tel"
+        class="custom-input-field"
+        placeholder="IFSC Code"
+        required
+      />
+      <button class="ifscbutton"  routerLink="/wallet/tsuccess">Find IFSC</button>
+    </div>
+  </div>
+  <br /><br />
+  <div class="inputbox3">
+    <ion-col size="12">
+      <input
+        type="tel"
+        class="custom-input-field"
+        placeholder="Account Holder's Name"
+        required
+      />
+    </ion-col>
+  </div>
+  <ion-button
+    routerLink="/fastagpage2"
+    class="long-btn"
+    shape="round"
+    size="small"
+    (click)="onClick($event)"
+    >Proceed</ion-button
+  >
+</ion-content>

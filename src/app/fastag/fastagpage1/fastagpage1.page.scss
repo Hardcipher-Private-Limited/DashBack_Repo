@@ -46,6 +46,27 @@ span {
 ion-button {
   margin-left: 2vw;
   padding-left: 2vw;
-  margin-top: 60vh;
+  margin-top: 50vh;
   padding-right: 7vw;
+}
+.input {
+  background: #f7f8f9;
+  border-radius: 3vw;
+  border: none;
+  ::placeholder{
+    border: none;
+  }
+}
+.inputContent {
+  margin-top: 0.5vh;
+  padding-bottom: 1vh;
+  padding-left: 5vw;
+  padding-right: 1vw;
+  color: #929292;
+  font-size: 3vw;
+  border: none;
+}
+ion-input{
+  border: none;
+  background-color: #f7f8f9;
 }

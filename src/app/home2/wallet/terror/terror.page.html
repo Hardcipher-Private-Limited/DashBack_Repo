@@ -1,0 +1,57 @@
+<ion-content>
+  <div class="pay1">
+    <ion-grid>
+      <ion-card-header>
+        <ion-row class="row">
+          <a routerLink="/paymenthistory">
+            <img src="assets/back.png" alt="back_icon2" />
+          </a>
+          <span class="Transfer">Transfer Reciept</span>
+        </ion-row>
+      </ion-card-header>
+    </ion-grid>
+  </div>
+
+  <div class="parent">
+    <div class="part1">
+      <img class="part2" src="../../../../assets/wallet/terror/blanks.svg" />
+    </div>
+    <div class="part3">
+      <img src="../../../../assets/wallet/terror/transactionerror.svg" alt="" />
+    </div>
+    <div class="errorclass">
+      <div class="Oops">Oops!!! Something went wrong</div>
+      <div class="firstpart">Look like we are unable to process</div>
+      <div class="secondpart">the payment, could be a connectivity</div>
+      <div class="thirdpart">issue.</div>
+    </div>
+    <ion-button
+      routerLink="/fastagpage2"
+      class="long-btn"
+      shape="round"
+      size="small"
+      (click)="onClick($event)"
+      >Try Again</ion-button
+    >
+  </div>
+
+  <div class="child">
+    <div class="order">
+      Order Number
+      <div class="amount">Amount</div>
+    </div>
+  </div>
+  <div class="child">
+    <div class="number">
+      11223344556677
+      <div class="amountnumber">130</div>
+    </div>
+  </div>
+  <p class="safe">Your transaction failed, your money is safe.</p>
+
+  <div class="sentencechild">
+    <div class="firstpara">Just in case money has been debited from</div>
+    <div class="secondpara">your account,it will be returned to you</div>
+    <div class="thirdpara">Within 7 working days.</div>
+  </div>
+</ion-content>

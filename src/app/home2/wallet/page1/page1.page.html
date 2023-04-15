@@ -1,0 +1,51 @@
+<ion-content>
+  <div class="pay1">
+    <ion-grid>
+      <ion-card-header>
+        <ion-row class="row">
+          <a routerLink="/paymenthistory">
+            <img src="assets/back.png" alt="back_icon2" />
+          </a>
+          <span class="walletpage1">Send Money From Wallet to Bank</span>
+          <h6 class="smallclass">
+            Send money from your wallet to bank for free
+          </h6>
+        </ion-row>
+      </ion-card-header>
+    </ion-grid>
+  </div>
+
+  <!-- <div class="input">
+    <ion-input
+      label="Solid input"
+      class="SubscriberId"
+      class="custom-input-field"
+      labelPlacement="stacked"
+      type="tel"
+      placeholder="₹100"
+      fill="solid"
+    >
+    </ion-input>
+  </div> -->
+  <div class="inputbox">
+    <ion-col size="12">
+      <input
+        type="tel"
+        class="custom-input-field"
+        placeholder="₹100"
+        required
+      />
+    </ion-col>
+  </div>
+
+
+
+  <ion-button
+    routerLink="/fastagpage2"
+    class="long-btn"
+    shape="round"
+    size="small"
+    (click)="onClick($event)"
+    >Proceed</ion-button
+  >
+</ion-content>

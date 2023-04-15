@@ -1,0 +1,62 @@
+<ion-content>
+  <div class="pay1">
+    <ion-grid>
+      <ion-card-header>
+        <ion-row class="row">
+          <a routerLink="/paymenthistory">
+            <img src="assets/back.png" alt="back_icon2" />
+          </a>
+          <span class="walletpage4">Sending Money From Wallet to</span>
+        </ion-row>
+      </ion-card-header>
+    </ion-grid>
+  </div>
+
+  <ion-label class="a" routerLink="/pay1">
+    <h3>Raj Chauhan</h3>
+    <h5>CANARA BANK A/C No. XX XX 3269</h5>
+  </ion-label>
+
+  <div class="image">
+    <img
+      src="../../../../assets/wallet/page2/walletpage2roundimage.svg"
+      class="round"
+    />
+    <div class="image2">
+      <img src="../../../../assets/wallet/page2/cnrb.svg" alt="" />
+    </div>
+  </div>
+
+  
+    <ion-card>
+      <ion-card-header>
+        <div class="parent">
+          <div class="amounttosent">Amount to be sent</div>
+        <div class="cost">₹100</div>
+  
+        <!-- </div> -->
+        
+        <div class="amount">Charges (%5)</div>
+        <div class="cost">₹ 05</div>
+      </div>
+      </ion-card-header>
+      <img
+        src="../../../../assets/wallet/page4/straight line.svg"
+        class="stline"
+      />
+      <div class="child">
+        <div class="totalpayable"> Total Payable </div>
+        <div class="total">₹ 05</div>
+      </div>
+    </ion-card>
+ 
+
+  <ion-button
+    routerLink="/fastagpage2"
+    class="long-btn"
+    shape="round"
+    size="small"
+    (click)="onClick($event)"
+    >Proceed</ion-button
+  >
+</ion-content>
