@@ -127,6 +127,30 @@ const routes: Routes = [
     path: 'rechargeplan',
     loadChildren: () => import('./recharge/rechargeplan/rechargeplan.module').then( m => m.RechargeplanPageModule)
   },
+  {
+    path: 'successfultransaction',
+    loadChildren: () => import('./payment/successfultransaction/successfultransaction.module').then( m => m.SuccessfultransactionPageModule)
+  },
+  {
+    path: 'failedtransaction',
+    loadChildren: () => import('./payment/failedtransaction/failedtransaction.module').then( m => m.FailedtransactionPageModule)
+  },
+  {
+    path: 'firstpayment',
+    loadChildren: () => import('./PayMoney/firstpayment/firstpayment.module').then( m => m.FirstpaymentPageModule)
+  },
+  {
+    path: 'transactionfailedpage',
+    loadChildren: () => import('./PayMoney/transactionfailedpage/transactionfailedpage.module').then( m => m.TransactionfailedpagePageModule)
+  },
+  {
+    path: 'firstpaymentreciept',
+    loadChildren: () => import('./PayMoney/firstpaymentreciept/firstpaymentreciept.module').then( m => m.FirstpaymentrecieptPageModule)
+  },
+  {
+    path: 'failedpaymentreciept',
+    loadChildren: () => import('./PayMoney/failedpaymentreciept/failedpaymentreciept.module').then( m => m.FailedpaymentrecieptPageModule)
+  },
   
 ];
 
