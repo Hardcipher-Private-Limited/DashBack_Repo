@@ -1,0 +1,64 @@
+<ion-content>
+  <div class="pay1">
+    <ion-grid>
+      <ion-card-header>
+        <ion-row class="row">
+          <a routerLink="/paymenthistory">
+            <img src="assets/back.png" alt="back_icon2" />
+          </a>
+          <span class="Refer">Refer Your Friends and </span>
+          <span class="Refer1">Earn Cashback!</span>
+        </ion-row>
+      </ion-card-header>
+    </ion-grid>
+  </div>
+
+  <div class="parent">
+    <img src="../../../assets/Refer/Refer.svg" alt="" />
+  </div>
+
+  <div class="ReferLink">
+    Your referral Links:
+    <div class="inputbox2">
+      <input
+        type="tel"
+        class="custom-input-field"
+        placeholder="www.dashback.com/referral/rajpro"
+        required
+      />
+      <img
+        src="../../../assets/Refer/Refercopy.svg"
+        routerLink="/pay"
+        class="ifscbutton"
+      />
+    </div>
+  </div>
+  <div class="divider">
+    <img src="../../../assets/Refer/Divider(or).svg" alt="">
+  </div>
+  <div class="ReferCode">
+    Your referral Code
+    <div class="inputbox2">
+      <input
+        type="tel"
+        class="custom-input-field"
+        placeholder="Rajpro"
+        required
+      />
+      <img
+        src="../../../assets/Refer/Refercopy.svg"
+        routerLink="/pay"
+        class="ifscbutton"
+      />
+    </div>
+  </div>
+
+  <ion-button
+    routerLink="/fastagpage2"
+    class="long-btn"
+    shape="round"
+    size="small"
+    (click)="onClick($event)"
+    >Done</ion-button
+  >
+</ion-content>

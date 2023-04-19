@@ -1,0 +1,49 @@
+<ion-content>
+  <div class="pay1">
+    <ion-grid>
+      <ion-card-header>
+        <ion-row class="row">
+          <a routerLink="/paymenthistory">
+            <img src="assets/back.png" alt="back_icon2" />
+          </a>
+          <span class="Transfer">Pay Money</span>
+        </ion-row>
+      </ion-card-header>
+    </ion-grid>
+  </div>
+
+  <div class="money">
+    <img src="../../../assets/PayMoney/PayMoney.svg" alt="" />
+  </div>
+
+  <div class="inputbox1">
+    <ion-col size="12">
+      <input
+        type="tel"
+        class="custom-input-field"
+        placeholder="Name,username,phone or email"
+        required
+      />
+    </ion-col>
+  </div>
+
+  <div class="inputbox2">
+    <ion-col size="12">
+      <input
+        type="text"
+        class="custom-input-field"
+        placeholder="Message..."
+        required
+      />
+    </ion-col>
+  </div>
+
+  <ion-button
+    routerLink="/fastagpage2"
+    class="long-btn"
+    shape="round"
+    size="small"
+    (click)="onClick($event)"
+    >Pay</ion-button
+  >
+</ion-content>

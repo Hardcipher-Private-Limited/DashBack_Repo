@@ -151,6 +151,18 @@ const routes: Routes = [
     path: 'failedpaymentreciept',
     loadChildren: () => import('./PayMoney/failedpaymentreciept/failedpaymentreciept.module').then( m => m.FailedpaymentrecieptPageModule)
   },
+  {
+    path: 'pay',
+    loadChildren: () => import('./PayMoney/pay/pay.module').then( m => m.PayPageModule)
+  },
+  {
+    path: 'paymoney',
+    loadChildren: () => import('./PayMoney/paymoney/paymoney.module').then( m => m.PaymoneyPageModule)
+  },
+  {
+    path: 'refer',
+    loadChildren: () => import('./Refer/refer/refer.module').then( m => m.ReferPageModule)
+  },
   
 ];
 
