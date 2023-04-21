@@ -1,13 +1,59 @@
-.Paymoney {
-  margin-left: 20vw;
+.Transfer {
+  margin-left: 18vw;
   margin-top: 1vh !important;
   font-family: "Montserrat";
   font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 22px !important;
 
   //   min-height: 100px;
 }
 .pay1 {
   margin-top: 3vh;
+}
+.custom-input-field {
+  background-color: white;
+  font-weight: bolder;
+  text-align: center;
+  font-size: 3vh;
+  border-color: #d4d4d4;
+  border: none;
+}
+
+.inputbox {
+  text-align: center;
+  margin-top: 9vh;
+
+  ::placeholder {
+    color: #09376e;
+  }
+}
+.NumericBackground{
+   background-color: #F4F4F4;
+   height: 65vh;
+   margin-top: 6vh;
+   border-radius: 5%;
+}
+.btn{
+  margin-left: 25vw;
+  margin-top: 10vh;
+  background: none;
+}
+.btn2{
+  margin-left: 25vw;
+  margin-top: 10vh;
+  background: none;
+
+  
+}
+.btn3{
+  margin-left: 25vw;
+  margin-top: 10vh;
+  border:none
+}
+ion-button {
+  margin-left: 2vw;
+  padding-left: 8vw;
+  margin-top: 4vh;
+  padding-right: 13vw;
 }
