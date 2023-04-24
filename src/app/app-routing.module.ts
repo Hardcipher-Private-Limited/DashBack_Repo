@@ -283,6 +283,18 @@ const routes: Routes = [
         (m) => m.Pagenumber1PageModule
       ),
   },
+  {
+    path: 'proceedtopay',
+    loadChildren: () => import('./WalletToWallet/proceedtopay/proceedtopay.module').then( m => m.ProceedtopayPageModule)
+  },
+  {
+    path: 'pay-upi',
+    loadChildren: () => import('./WalletToWallet/pay-upi/pay-upi.module').then( m => m.PayUPIPageModule)
+  },
+  {
+    path: 'payupi1',
+    loadChildren: () => import('./WalletToWallet/payupi1/payupi1.module').then( m => m.Payupi1PageModule)
+  },
 ];
 
 @NgModule({
