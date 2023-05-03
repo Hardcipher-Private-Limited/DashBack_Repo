@@ -32,29 +32,37 @@
           <input type="tel" class="custom-input-field" placeholder="₹130.00" />
         </ion-col>
       </div>
-      <p class="successfully">Money has been successfully transfered to your</p>
-      <p class="successfully1">Bank Account</p>
-
-      
-
-      
+      <div class="parentclass">
+        Money has been successfully transfered to your
+      </div>
+      <div class="childclass">
+        Bank Account
+      </div>
     </div>
-    
   </ion-row>
-  <div class="parent">
-    <div class="transactionID">Transaction ID</div>
-    <div class="amount">Amount</div>
-    <div class="transactionnumber">11223344556677889911</div>
-    <div class="cost">105</div>
+  <div class="parentdiv">
+    <div class="parent">
+      <div class="transactionID">Transaction ID</div>
+      <div class="amount">Amount</div>
+      <div class="transactionnumber">11223344556677889911</div>
+      <div class="cost">105</div>
+    </div>
+    <ion-button
+      routerLink="/firstpayment"
+      class="btn"
+      size="small"
+      shape="round"
+      fill="outline"
+      >View Details</ion-button
+    >
+  
+    <ion-button
+      routerLink="/wallet/terror"
+      class="long-btn"
+      shape="round"
+      size="small"
+      (click)="onClick($event)"
+      >Done</ion-button
+    >
   </div>
-  <ion-button routerLink="/firstpayment" class="btn" size="small" shape="round" fill="outline">View Details</ion-button>
-
-  <ion-button
-    routerLink="/wallet/terror"
-    class="long-btn"
-    shape="round"
-    size="small"
-    (click)="onClick($event)"
-    >Done</ion-button
-  >
 </ion-content>

@@ -1,0 +1,83 @@
+.walletpage1 {
+  margin-left: 6px !important;
+  margin-top: 2vh !important;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 19px !important;
+}
+
+.row {
+  margin-top: 5vh;
+}
+
+.smallclass {
+  font-size: 14px;
+  margin-left: 6px !important;
+}
+.custom-input-field {
+  background: #f7f8f9;
+  width: 100%;
+  border: 1px solid #e8ecf4;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 2vw;
+  color: #000;
+  font-size: 4vw;
+  height: 14vw;
+  padding-left: 5vw;
+  padding-right: 15vw;
+  ::placeholder {
+    color: #09376e;
+  }
+}
+.input {
+  margin-left: 10vw;
+  margin-right: 10vw;
+  font-size: 30px;
+}
+ion-col {
+  --placeholder-color: #09376e;
+}
+ion-button {
+  margin-left: 2vw;
+  padding-left: 9vw;
+  align-items: center;
+  margin-top: 5vh;
+  padding-right: 11vw;
+  align-items: center;
+}
+.long-btn {
+  font-size: 17px;
+}
+.moneytowallet {
+  font-size: x-large;
+  font-weight: bolder;
+  margin-left: 16vw;
+  margin-top: -50px;
+}
+.dashbacktosaving {
+  margin-left: 7vw;
+  margin-top: 3vh;
+  color: #737373;
+  font-size: 14px;
+}
+.inputbox {
+  text-align: center;
+  margin-top: 1.9vh;
+
+  ::placeholder {
+    color: black;
+  }
+  padding-left: 40px;
+  padding-right: 50px;
+  text-align: left;
+}
+
+.custom-input-field {
+  font-weight: bolder;
+  text-align: center;
+  font-size: 2vh;
+  border-color: #d4d4d4;
+
+  text-align: start;
+}

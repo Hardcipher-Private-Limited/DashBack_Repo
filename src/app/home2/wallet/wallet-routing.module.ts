@@ -31,6 +31,46 @@ const routes: Routes = [
   {
     path: 'terror',
     loadChildren: () => import('./terror/terror.module').then( m => m.TerrorPageModule)
+  },
+  {
+    path: 'tsuccessreciept',
+    loadChildren: () => import('./tsuccessreciept/tsuccessreciept.module').then( m => m.TsuccessrecieptPageModule)
+  },
+  {
+    path: 'terrorreciept',
+    loadChildren: () => import('./terrorreciept/terrorreciept.module').then( m => m.TerrorrecieptPageModule)
+  },
+  {
+    path: 'newuser1',
+    loadChildren: () => import('./newuser/newuser1/newuser1.module').then( m => m.Newuser1PageModule)
+  },
+  {
+    path: 'newuser2',
+    loadChildren: () => import('./newuser/newuser2/newuser2.module').then( m => m.Newuser2PageModule)
+  },
+  {
+    path: 'newuser3',
+    loadChildren: () => import('./newuser/newuser3/newuser3.module').then( m => m.Newuser3PageModule)
+  },
+  {
+    path: 'newusersucess',
+    loadChildren: () => import('./newuser/newusersucess/newusersucess.module').then( m => m.NewusersucessPageModule)
+  },
+  {
+    path: 'newwallet',
+    loadChildren: () => import('./newwallet/newwallet.module').then( m => m.NewwalletPageModule)
+  },
+  {
+    path: 'newusersucessreciept',
+    loadChildren: () => import('./newuser/newusersucessreciept/newusersucessreciept.module').then( m => m.NewusersucessrecieptPageModule)
+  },
+  {
+    path: 'newuserfailed',
+    loadChildren: () => import('./newuser/newuserfailed/newuserfailed.module').then( m => m.NewuserfailedPageModule)
+  },
+  {
+    path: 'newuserfailedreciept',
+    loadChildren: () => import('./newuser/newuserfailedreciept/newuserfailedreciept.module').then( m => m.NewuserfailedrecieptPageModule)
   }
 ];
 

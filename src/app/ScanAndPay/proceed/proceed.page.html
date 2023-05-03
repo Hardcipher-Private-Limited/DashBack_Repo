@@ -1,0 +1,88 @@
+<ion-content>
+  <div class="pay1">
+    <ion-grid>
+      <ion-card-header>
+        <ion-row class="row">
+          <a routerLink="/paymenthistory">
+            <img src="assets/back.png" alt="back_icon2" />
+          </a>
+          <span class="PayMoney">Pay</span>
+        </ion-row>
+      </ion-card-header>
+    </ion-grid>
+  </div>
+
+  <div class="parent">
+    <div class="person">
+      <img
+        class="circle"
+        src="../../../assets/WalletToWallet/NameunderCircle.svg"
+        alt=""
+      />
+      <div class="RC">RC</div>
+    </div>
+    <div class="name">Raj Chauhan</div>
+    <div class="upiId">987654321@dashback</div>
+
+    <div class="child">
+      <div class="youarepaying">You are Paying</div>
+      <div class="inputbox">
+        <ion-col size="12">
+          <input
+            type="tel"
+            class="custom-input-field"
+            placeholder="₹130.00"
+            required
+          />
+        </ion-col>
+      </div>
+      <ion-button class="smallbutton" color="#E8F2FF" expand="full"
+        >"Pay To Dashback Merchant"</ion-button
+      >
+      <div class="btn">
+        <ion-button
+          class="smallbtn"
+          fill="outline"
+          style="color: #09376e"
+          shape="round"
+          size="small"
+          >+1000</ion-button
+        >
+        <ion-button
+          class="smallbtn"
+          fill="outline"
+          style="color: #09376e"
+          shape="round"
+          size="small"
+          >+1000</ion-button
+        >
+        <ion-button
+          class="smallbtn"
+          fill="outline"
+          style="color: #09376e"
+          shape="round"
+          size="small"
+          >+1000</ion-button
+        >
+      </div>
+      <ion-card>
+        <div class="rightdownarrow">
+          <img class="grey" src="../../../assets/scan&pay/greyborder.svg" alt="">
+          <img class="arrow" src="../../../assets/scan&pay/downarrow.svg" alt="">
+        </div>
+        <div class="card2">
+          <img
+            class="dbimage"
+            src="../../../assets/scan&pay/cnrb.svg"
+            alt=""
+          />
+          <div class="info">Pay</div>
+          <div class="dbwallet">A/c No.XX XX 3265</div>
+          <div class="availablebalance">Check Balance</div>
+          <ion-button  class="long-btn" routerLink="/proceedtopay"
+      >Proceed to pay +130.00</ion-button>
+        </div>
+      </ion-card>
+    </div>
+  </div>
+</ion-content>

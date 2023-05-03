@@ -1,0 +1,116 @@
+.walletpage4 {
+  margin-left: 10px;
+  margin-top: 3vh !important;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 23px !important;
+}
+
+.row {
+  margin-top: 5vh;
+}
+
+.smallclass {
+  font-size: 14px;
+  margin-left: 6px !important;
+}
+.a {
+  position: relative;
+  margin-left: 10px;
+  font-family: Montserrat;
+  font-size: 14px;
+  line-height: 17px;
+  border: none;
+  left: 40px;
+}
+.image {
+  margin-left: 80vw;
+  margin-top: -40px;
+}
+.image2 {
+  margin-top: -40px;
+  margin-left: 10px;
+}
+.Raj {
+  font-weight: bolder;
+  margin-left: 8vw;
+  margin-top: 2vh;
+}
+.accountdetails {
+  font-size: 12px;
+  font-weight: 400;
+  margin-left: 8vw;
+}
+.amounttosent {
+  font-weight: 500;
+  color: black;
+}
+.part1 {
+  margin-left: 290px;
+  top: -100px;
+}
+.stline {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.totalpayable {
+  font-weight: 700;
+  color: black;
+  margin-top: 10px;
+  margin-left: 18px;
+}
+ion-card {
+  border: 1px #ffffff;
+  margin-top: 5vh;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  border-radius: 5%;
+}
+.cost {
+  margin-left: 250px;
+  margin-top: -15px;
+  font-weight: 600;
+  color: black;
+}
+.amount {
+  font-weight: 500;
+  color: black;
+  margin-top: 5px;
+}
+.total {
+  margin-left: 270px;
+  margin-top: -16px;
+  font-weight: 600;
+  color: black;
+}
+ion-card {
+  height: 150px;
+}
+.card {
+  // box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
+  // border-style: 10px 10px 10px 10px solid grey;
+  // width: 55.6vw;
+  border-top: 1px solid #bbb;
+  border-bottom: 1px solid #bbb;
+  border-left: 1px solid #bbb;
+  border-right: 1px solid #bbb;
+  height: 20vh;
+  margin-top: 3vh;
+  border-radius: 5vw;
+  justify-content: center;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  border-color: 5px 1px 1px 1px solid grey;
+}
+ion-button {
+  text-align: center;
+  margin-top: 5vh;
+
+  padding-left: 3vw;
+  padding-right: 15vw;
+  margin-left: 7vw;
+}
+.long-btn {
+  font-size: large;
+}

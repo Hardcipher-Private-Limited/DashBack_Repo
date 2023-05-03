@@ -1,0 +1,192 @@
+.DB {
+  margin-left: 10vw;
+  margin-top: 3.8vh;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px !important;
+  color: white;
+}
+.wallet {
+  margin-top: 5vh;
+  margin-left: 10vw;
+  margin-right: 5vw;
+  position: relative;
+}
+img {
+  margin-top: 3vh !important;
+}
+ion-content {
+  --ion-background-color: #09376e;
+}
+.card1 {
+  position: absolute;
+  margin-top: -60px;
+  height: 33vh;
+  margin-left: 4vw;
+  box-shadow: none;
+  width: 92vw;
+  border-radius: 20px;
+  background-color: white;
+  //   border: 1% 1% 1% 1% grey;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+.cardnew{
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+.right{
+    margin-left: 1vw;
+  margin-bottom: 20px;
+}
+.card3 {
+  position: relative;
+  box-shadow: none;
+  margin-top: 2vh;
+  border-radius: 20px;
+  color: white;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: 1px solid grey;
+}
+
+.logo {
+  width: 20vw;
+  margin-top: -15px;
+  margin-left: 10vw;
+  margin-bottom: 25vh;
+  width: 15vh;
+}
+.question {
+  margin-left: 14vw;
+  margin-top: 1vh;
+  font-size: 5px;
+}
+.whiteparagrapgh {
+  background-color: white;
+  height: 29vh;
+  margin-top: 8.11111vh;
+}
+.whitecard{
+    background-color: white;
+    height: 30vh;
+    margin-top: 2vh;
+    border-radius: 10%;
+    position: absolute;
+}
+.part1{
+    margin-top: 20vh;
+    font-size: 19px;
+    margin-left: 10vw;
+    height: 90vh;
+    width: 90vw;
+    border: 1px solid grey;
+}
+.person1{
+    font-size: 20px;
+    text-align: center;
+    top: -20px;
+}
+.wallet2 {
+  margin-top: -260px;
+  margin-left: 2vh;
+}
+.dashbackbalance {
+  margin-left: 8vw;
+  font-size: 10px;
+}
+.totalcashback {
+  margin-left: 8vw;
+  font-size: 2px;
+}
+.text1 {
+  font-weight: bolder;
+  font-size: 23px;
+  color: #ffffff;
+  margin-left: 190px;
+  padding-left: 5vw;
+}
+.text2 {
+  font-weight: bolder;
+  font-size: 23px;
+  color: #ffffff;
+  margin-left: 15vw;
+}
+.divider {
+  margin-left: 10vw;
+  margin-top: -50px;
+  font-weight: bolder;
+}
+
+.smallbutton {
+  margin-left: 9vw;
+  font-weight: bolder;
+  font-size: 15px;
+}
+
+h3 {
+  font-weight: bold;
+}
+p {
+  font-weight: 300;
+}
+.label {
+  position: relative;
+  margin-left: 10px;
+  font-family: Montserrat;
+  font-size: 14px;
+  line-height: 17px;
+  background-color: white;
+}
+.custom-input-field {
+  background-color: white;
+  font-weight: bolder;
+  text-align: center;
+  font-size: 6vh;
+  border-color: #d4d4d4;
+  padding: 25px 15px 25px 15px;
+}
+
+.inputbox {
+  text-align: center;
+  margin-top: 1.9vh;
+
+  ::placeholder {
+    color: #09376e;
+  }
+}
+.card {
+  margin-left: 12vw;
+}
+.cardimage {
+  height: auto;
+  margin-top: -20px;
+
+  max-width: 80%;
+}
+.text1 {
+  font-weight: bolder;
+  font-size: 28px;
+  color: #ffffff;
+  margin-left: 2.5vw;
+}
+.text2 {
+  font-weight: bolder;
+  font-size: 30px;
+  color: #ffffff;
+  margin-left: 6vw;
+}
+
+ion-button {
+  margin-top: 2vh;
+}
+.long-btn {
+  font-size: 15px;
+}
+
+ion-item{
+    border: none;
+}
+

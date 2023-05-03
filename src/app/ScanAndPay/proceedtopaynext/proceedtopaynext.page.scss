@@ -1,0 +1,170 @@
+.PayMoney {
+  margin-left: 27vw;
+  margin-top: 1vh !important;
+  font-family: "Montserrat";
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
+
+  //   min-height: 100px;
+}
+.pay1 {
+  margin-top: 4vh;
+  margin-left: 5vw;
+}
+ion-content {
+  --ion-background-color: #09376e;
+}
+ion-button{
+  --box-shadow:none
+}
+.parent {
+  height: 80.7111111111111111vh;
+  width: auto;
+  margin-top: 6vh;
+  background-color: white;
+  // border-radius: 25px;
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+}
+.circle {
+  margin-left: 40vw;
+  margin-top: 4vh;
+}
+.name {
+  margin-left: 35vw;
+  margin-top: 2vh;
+  font-weight: 600;
+  font-size: 15px !important;
+}
+.RC {
+  position: absolute;
+  margin-left: 43vw;
+  margin-top: -7vh;
+  color: white;
+  font-weight: bold;
+  font-size: xx-large;
+}
+.upiId {
+  margin-left: 28vw;
+}
+.child {
+  border: 1px solid #bbb;
+  border-radius: 15px;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  margin-top: 2vh;
+}
+.card2 {
+  margin-top: 2vh;
+}
+.btn {
+  margin-left: 10px;
+}
+.youarepaying {
+  margin-left: 31vw;
+  font-weight: 800;
+  font-size: 17px;
+  margin-top: 2vh;
+}
+.custom-input-field {
+  background-color: white;
+  font-weight: bolder;
+  text-align: center;
+  font-size: 6vh;
+  border-color: #d4d4d4;
+  margin-right: 10vw;
+  padding: 45px 15px 45px 15px;
+}
+
+.inputbox {
+  text-align: center;
+  margin-top: 1.9vh;
+
+  ::placeholder {
+    color: #09376e;
+  }
+  margin-right: 5vw;
+  margin-left: 3vw;
+}
+.messageforraj {
+  margin-top: 1vh;
+  margin-left: 30vw;
+  font-weight: bold;
+  color: #9e9e9e;
+}
+.smallbutton {
+  margin-left: 12vw;
+  margin-right: 12vw;
+  font-weight: 450;
+  font-style: italic;
+  background-color: #e8f2ff;
+  color: black;
+  margin-top: 2vh;
+}
+
+.long-btn {
+  font-size: 15px;
+  text-align: center;
+  margin-top: 2vh;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.smallbtn {
+  margin-left: 9vw;
+  margin-top: 1vh;
+  font-weight: bold;
+}
+ion-card {
+  height: 22vh;
+  background-color: white;
+//   margin-top: vh;
+}
+.dbimage {
+  margin-left: 4vw;
+  margin-top: 2vh;
+}
+.info {
+  margin-top: -29px;
+  margin-left: 20vw;
+  font-weight: 600;
+  font-size: 22px;
+  color: #09376e;
+}
+.dbwallet {
+  margin-left: 20vw;
+  font-weight: 600;
+  font-size: 22px;
+  color: black;
+}
+.availablebalance {
+  margin-left: 20vw;
+  font-weight: 400;
+  font-size: 15px;
+  color: #09376e;
+}
+.grey {
+  float: right;
+  margin-top: 2vh;
+  margin-right: 3vw;
+}
+.arrow {
+  float: right;
+  margin-top: 2.5vh;
+  margin-right: -13px;
+}
+.long-btn {
+  font-size: 15px;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  // margin-top: -2px;
+}
+.rightdownarrow2{
+    margin-top: -35px;
+   padding-right: 65px;
+}
+.frombank{
+    margin-left: 55px;
+}
+

@@ -1,15 +1,16 @@
 .walletpage4 {
-  margin-left: 14px;
-  margin-top: 2vh !important;
+  margin-left: 10px;
+  margin-top: 3vh !important;
   font-family: "Montserrat";
   font-style: normal;
   font-weight: bolder;
-  font-size: 20px !important;
+  font-size: 23px !important;
 }
 
 .row {
   margin-top: 5vh;
 }
+
 .smallclass {
   font-size: 14px;
   margin-left: 6px !important;
@@ -31,14 +32,15 @@
   margin-top: -40px;
   margin-left: 10px;
 }
-
-h3 {
+.Raj {
   font-weight: bolder;
+  margin-left: 8vw;
+  margin-top: 2vh;
 }
-h5 {
-  font-size: 10px;
-  font-weight:600;
- 
+.accountdetails {
+  font-size: 12px;
+  font-weight: 400;
+  margin-left: 8vw;
 }
 .amounttosent {
   font-weight: 500;
@@ -53,38 +55,60 @@ h5 {
   padding-right: 15px;
 }
 .totalpayable {
-  font-weight: 500;
+  font-weight: 700;
   color: black;
   margin-top: 10px;
   margin-left: 18px;
 }
-ion-button {
-  margin-left: 2vw;
-  padding-left: 8vw;
-  margin-top: 4vh;
-  padding-right: 13vw;
+ion-card {
+  border: 1px #ffffff;
+  margin-top: 5vh;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  border-radius: 5%;
 }
-ion-card{
-    border: 1px solid black;
-    margin: 30px 30px 30px 30px;
-}
-.cost{
-  margin-left: 250px;
+.cost {
+  margin-left: 240px;
   margin-top: -15px;
   font-weight: 600;
   color: black;
 }
-.amount{
+.amount {
   font-weight: 500;
   color: black;
   margin-top: 5px;
 }
-.total{
-  margin-left: 270px;
+.total {
+  margin-left: 260px;
   margin-top: -16px;
   font-weight: 600;
   color: black;
 }
-ion-card{
-  height: 150px;
+.card{
+  // box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
+  // border-style: 10px 10px 10px 10px solid grey;
+  // width: 55.6vw;
+  border-top: 1px solid #bbb;
+  border-bottom: 1px solid #bbb;
+  border-left: 1px solid #bbb;
+  border-right: 1px solid #bbb;
+  height: 20vh;
+  margin-top: 3vh;
+  border-radius: 5vw;
+  justify-content: center;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  border-color: 5px 1px 1px 1px solid grey;
+}
+
+ion-button {
+  text-align: center;
+  margin-top: 5vh;
+
+  padding-left: 3vw;
+  padding-right: 15vw;
+  margin-left: 7vw;
+}
+.long-btn{
+  font-size: large;
 }

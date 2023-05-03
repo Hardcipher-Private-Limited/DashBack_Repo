@@ -20,7 +20,7 @@
         />
       </div>
 
-      <div class="part3">
+      <div class="successfull">
         <img
           src="../../../../assets/wallet/tsuccess/transactionsuccessfull.svg"
           alt=""
@@ -32,21 +32,30 @@
           <input type="tel" class="custom-input-field" placeholder="₹130.00" />
         </ion-col>
       </div>
-      <p class="successfully">Money has been successfully transfered to your</p>
-      <p class="successfully1">Bank Account</p>
-
-      
-
-      
+      <div class="parentclass">
+        Money has been successfully transfered 
+        
+      </div>
+      <div class="childclass">
+        to your Bank Account
+      </div>
     </div>
-    
   </ion-row>
   <div class="parent">
     <div class="transactionID">Transaction ID</div>
     <div class="amount">Amount</div>
     <div class="transactionnumber">11223344556677889911</div>
-    <div class="cost">105</div>
+    <div class="cost">₹105</div>
   </div>
+
+  <ion-button
+  routerLink="/firstpayment"
+  class="btnn"
+  size="small"
+  shape="round"
+  fill="outline"
+  >View Details</ion-button
+>
 
   <ion-button
     routerLink="/wallet/terror"

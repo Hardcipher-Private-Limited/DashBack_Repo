@@ -2,9 +2,8 @@
   margin-left: 27vw;
   margin-top: 1vh !important;
   font-family: "Montserrat";
-  font-style: normal;
+  font-size: 30px;
   font-weight: 700;
-  font-size: 22px !important;
   color: white;
 
   //   min-height: 100px;
@@ -17,11 +16,13 @@ ion-content {
   --ion-background-color: #09376e;
 }
 .parent {
-  height: 81vh;
+  height: 80.7111111111111111vh;
   width: auto;
-  margin-top: 5vh;
+  margin-top: 6vh;
   background-color: white;
-  border-radius: 3%;
+  // border-radius: 25px;
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
 }
 .circle {
   margin-left: 40vw;
@@ -44,15 +45,23 @@ ion-content {
 .upiId {
   margin-left: 28vw;
 }
-// .child {
-//   height: 58vh;
-//   margin: 2vh 5vw 0vh 5vw;
-//   border-style: dashed;
-// }
+.child {
+  border: 1px solid #bbb;
+  border-radius: 15px;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  margin-top: 2vh;
+}
+.card2{
+  margin-top: 2vh;
+}
+.btn{
+  margin-left: 10px;
+}
 .youarepaying {
-  margin-left: 35vw;
-  font-weight: 600;
-  font-size: 15px !important;
+  margin-left: 31vw;
+  font-weight: 800;
+  font-size: 17px ;
   margin-top: 2vh;
 }
 .custom-input-field {
@@ -62,7 +71,7 @@ ion-content {
   font-size: 6vh;
   border-color: #d4d4d4;
   margin-right: 10vw;
-  padding: 15px 15px 15px 15px;
+  padding: 45px 15px 45px 15px;
 }
 
 .inputbox {
@@ -82,12 +91,12 @@ ion-content {
   color: #9e9e9e;
 }
 .smallbutton {
-  margin-left: 5vw;
-  font-weight: 500;
+  font-weight: 450;
   font-style: italic;
   background-color: #e8f2ff;
-  margin-right: 10px;
   color: black;
+  margin-left: 12vw;
+  margin-right: 12vw;
  
   
 }
@@ -98,6 +107,7 @@ ion-content {
     margin-top:2vh;
     padding-left: 20px;
     padding-right: 20px;
+    
   }
 .smallbtn{
     margin-left: 8vw;

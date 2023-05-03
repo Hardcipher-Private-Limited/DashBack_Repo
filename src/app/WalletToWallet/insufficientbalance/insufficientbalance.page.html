@@ -1,0 +1,109 @@
+<ion-content>
+  <div class="pay1">
+    <ion-grid>
+      <ion-card-header>
+        <ion-row class="row">
+          <a routerLink="/paymenthistory">
+            <img src="assets/back.png" alt="back_icon2" />
+          </a>
+          <span class="PayMoney">Pay</span>
+        </ion-row>
+      </ion-card-header>
+    </ion-grid>
+  </div>
+
+  <div class="parent">
+    <div class="person">
+      <img
+        class="circle"
+        src="../../../assets/WalletToWallet/NameunderCircle.svg"
+        alt=""
+      />
+      <div class="RC">RC</div>
+    </div>
+    <div class="name">Raj Chauhan</div>
+    <div class="upiId">987654321rajchauhan@dashback</div>
+
+    <div class="child">
+      <div class="youarepaying">You are Paying</div>
+      <div class="inputbox">
+        <ion-col size="12">
+          <input
+            type="tel"
+            class="custom-input-field"
+            placeholder="₹130.00"
+            required
+          />
+        </ion-col>
+      </div>
+      <div class="messageforraj">Message for Raj</div>
+      <ion-button class="smallbutton" (click)="presentAlert()" color="#E8F2FF" expand="full"
+        >"Pay To Dashback Merchant"</ion-button
+      >
+      <br>
+      <ion-button
+        class="long-btn"
+        expand="block"
+        id="open-modal" expand="block"
+        >Proceed to Add +130.00</ion-button
+      >
+      <div class="btn">
+        <ion-button
+          class="smallbtn"
+          fill="outline"
+          style="color: #09376e"
+          shape="round"
+          size="small"
+          >+1000</ion-button
+        >
+        <ion-button
+          class="smallbtn"
+          fill="outline"
+          style="color: #09376e"
+          shape="round"
+          size="small"
+          >+1000</ion-button
+        >
+        <ion-button
+          class="smallbtn"
+          fill="outline"
+          style="color: #09376e"
+          shape="round"
+          size="small"
+          >+1000</ion-button
+        >
+      </div>
+      <ion-card clas="childmain">
+        <div class="image">
+          <img
+            class="dbimage"
+            src="../../../assets/WalletToWallet/DB.svg"
+            alt=""
+          />
+          <div class="info">Pay</div>
+          <div class="dbwallet">Dashback Wallet-9876</div>
+          <div class="availablebalance">Availabe Balance-3030</div>
+        </div>
+      </ion-card>
+    </div>
+  </div>
+  <ion-modal trigger="open-modal" [initialBreakpoint]="1" [breakpoints]="[0, 1]">
+    <ng-template>
+      <div class="payusing">Pay Using</div>
+      <ion-card class="popupclass">
+        <img
+          class="popupimage"
+          src="../../../assets/WalletToWallet/DB.svg"
+          alt=""
+        />
+        <ion-radio-group value="custom-checked">
+          <ion-radio value="custom" aria-label="Custom checkbox"></ion-radio>
+        </ion-radio-group>
+        <div class="popupwallet">Dashback Wallet-9876</div>
+        <div class="popupavailablebalance">Availabe Balance-30</div>
+        <ion-button  class="long-btn" routerLink="/proceedtopay"
+      >Proceed to pay +130.00</ion-button>
+      </ion-card>
+    </ng-template>
+  </ion-modal>
+</ion-content>

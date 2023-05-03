@@ -1,10 +1,14 @@
 .Transfer {
-  margin-left: 10px !important;
+  margin-left: 5vw !important;
   margin-top: 1vh !important;
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 600;
   font-size: 22px !important;
+}
+.pay1{
+  margin-left: 5vw;
+  margin-top: 5vh;
 }
 ion-item {
   // margin-top:20px;
@@ -13,7 +17,8 @@ ion-item {
 }
 .input {
   align-items: center;
-  left: 7vw;
+  left: 10vw;
+  padding-left: 4vw;
 }
 .flex {
   border-top-left-radius: 5vw;

@@ -1,12 +1,11 @@
 .Transfer {
-  margin-left: 30px !important;
-  margin-top: 3.9vh !important;
+  margin-left: 10vw;
+  margin-top: 3.8vh;
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 600;
   font-size: 22px !important;
   color: white;
-  //   min-height: 100px;
 }
 img {
   margin-top: 3vh !important;
@@ -14,39 +13,24 @@ img {
 ion-content {
   --ion-background-color: #09376e;
 }
+.smallbutton {
+  margin-left: 3vw;
+  font-weight: bolder;
+}
 
 ion-button {
   margin: -10px 30px 0px 40px;
 }
 
-// .part1{
-// width: auto;
-// text-align: center;
-// // padding: 15px;
-
-// max-width: 100%;
-
-// }
-// img{
-//     max-width: 100%;
-// height: auto;
-// object-fit: cover;
-// }
-// .part2{
-//     height: 120vh;
-//     width: auto;
-
-// }
 .part2 {
-  margin-left: 10px;
+  margin-left: 6vw;
 }
-.part3 {
+.successfull {
   position: relative;
   top: -30px;
   margin-top: -630px;
-  margin-left: 150px;
+  margin-left: 38vw;
   font-size: 10px;
-
 }
 .tsuccess {
   font-size: 23px;
@@ -55,16 +39,18 @@ ion-button {
   font-weight: bolder;
   color: #09376e;
 }
-.successfully {
-  padding-left: 50px;
-  padding-right: 20px;
-  font-size: 12px;
+.parentclass {
+  margin-left: 15px;
+  font-size: 14px;
+  padding-left: 15vw;
+  padding-right: 15vw;
 }
-.successfully1 {
-  padding-left: 35px;
+.childclass {
+  margin-left: 17vw;
+  margin-top: 1vh;
   font-size: 12px;
-  margin-top: -15px;
-  margin-left: 120px;
+  padding-left: 15vw;
+  padding-right: 15vw;
 }
 .ttransfer {
   padding-left: 40px;
@@ -82,11 +68,16 @@ ion-button {
   border: none;
   position: relative;
 }
+@media (max-width: 250px) {
+  .inputbox {
+    display: none;
+  }
+}
 
 .inputbox {
   text-align: center;
   padding-left: 40px;
-  padding-right: 40px;
+  padding-right: 50px;
   border: none;
   position: relative;
 
@@ -94,37 +85,46 @@ ion-button {
     color: #09376e;
   }
 }
-.transactionID{
-  font-weight: 600;
-  font-size:large;
+.parent {
+  position: inherit;
+}
+.transactionID {
+  font-weight: 550;
+  font-size: 15px;
   color: black;
   margin-top: 10vh;
-  margin-left: 15vw;
+  margin-left: 22vw;
 }
-.transactionnumber{
+.transactionnumber {
   margin-top: 20px;
-  margin-left: 15vw;
+  margin-left: 22vw;
+  font-size: 13px;
 }
-.amount{
+.amount {
   margin-left: 65vw;
   margin-top: -20px;
   color: black;
   font-weight: 600;
 }
-.cost{
-  margin-left: 75vw;
+.cost {
+  margin-left: 72vw;
   margin-top: -20px;
-
 }
 ion-button {
-  margin-left: 5vw;
+  margin-left: 10vw;
   padding-left: 7vw;
   margin-top: 10vh;
-  padding-right: 15vw;
-  display: flex;
+  padding-right: 25vw;
+  margin-right: 15vw;
   position: absolute;
 }
-// .long-btn{
-//   width: 40vw;
-//   margin-top: -4vh;
-// }
+.long-btn {
+  font-size: 15px;
+}
+.btnn {
+  color: #09376e;
+  font-weight: 550;
+  margin-top: 3vh;
+  margin-left: 26vw;
+  position: absolute;
+}

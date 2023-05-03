@@ -295,6 +295,23 @@ const routes: Routes = [
     path: 'payupi1',
     loadChildren: () => import('./WalletToWallet/payupi1/payupi1.module').then( m => m.Payupi1PageModule)
   },
+  {
+    path: 'insufficientbalance',
+    loadChildren: () => import('./WalletToWallet/insufficientbalance/insufficientbalance.module').then( m => m.InsufficientbalancePageModule)
+  },
+  {
+    path: 'proceed',
+    loadChildren: () => import('./ScanAndPay/proceed/proceed.module').then( m => m.ProceedPageModule)
+  },
+  {
+    path: 'proceedtopaynext',
+    loadChildren: () => import('./ScanAndPay/proceedtopaynext/proceedtopaynext.module').then( m => m.ProceedtopaynextPageModule)
+  },
+  {
+    path: 'proceedtoupi',
+    loadChildren: () => import('./ScanAndPay/proceedtoupi/proceedtoupi.module').then( m => m.ProceedtoupiPageModule)
+  },
+ 
 ];
 
 @NgModule({

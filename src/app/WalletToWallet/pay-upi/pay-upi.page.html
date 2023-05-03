@@ -21,7 +21,7 @@
       <div class="RC">RC</div>
     </div>
     <div class="name">Raj Chauhan</div>
-    <div class="upiId">987654321@dashback</div>
+    <div class="upiId">987654321rajchuhan@dashback</div>
 
     <div class="child">
       <div class="youarepaying">You are Paying</div>
@@ -36,7 +36,7 @@
         </ion-col>
       </div>
       <div class="messageforraj">Message for Raj</div>
-      <ion-button class="smallbutton" color="#E8F2FF" expand="full"
+      <ion-button id="open-modal" expand="block" class="smallbutton" color="#E8F2FF" expand="full"
         >"Pay To Dashback Merchant"</ion-button
       >
 
@@ -66,7 +66,7 @@
           >+1000</ion-button
         >
       </div>
-      <ion-card>
+      <ion-card class="childmain">
         <div class="image">
           <img
             class="dbimage"
@@ -80,4 +80,23 @@
       </ion-card>
     </div>
   </div>
+  <ion-modal trigger="open-modal" [initialBreakpoint]="1" [breakpoints]="[0, 1]">
+    <ng-template>
+      <div class="payusing">Pay Using</div>
+        <ion-card class="popupclass">
+          <img
+            class="popupimage"
+            src="../../../assets/WalletToWallet/DB.svg"
+            alt=""
+          />
+          <ion-radio-group value="custom-checked">
+            <ion-radio value="custom" aria-label="Custom checkbox"></ion-radio>
+          </ion-radio-group>
+          <div class="popupwallet">Dashback Wallet-9876</div>
+          <div class="popupavailablebalance">Availabe Balance-30</div>
+          <ion-button  class="long-btn" routerLink="/proceedtopay"
+        >Proceed to pay +130.00</ion-button>
+        </ion-card>
+    </ng-template>
+  </ion-modal>
 </ion-content>

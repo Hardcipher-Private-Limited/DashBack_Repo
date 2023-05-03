@@ -1,10 +1,10 @@
 .Transfer {
-  margin-left: 50px !important;
-  margin-top: 1vh !important;
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 600;
   font-size: 22px !important;
+  margin-top: 0.1vh;
+  margin-left: 5vw;
 }
 ion-textarea {
   border: hidden;
@@ -45,17 +45,46 @@ span {
 }
 ion-button {
   margin-left: 2vw;
-  padding-left: 2vw;
+  padding-left: 5vw;
   margin-top: 50vh;
-  padding-right: 7vw;
+  padding-right: 10vw;
+}
+.long-btn {
+  font-size: 19px;
 }
 .input {
   background: #f7f8f9;
   border-radius: 3vw;
   border: none;
-  ::placeholder{
+  ::placeholder {
     border: none;
   }
+}
+.straightline{
+  margin-left: 4vw;
+}
+.input1 {
+  background: #f7f8f9;
+  border-radius: 1vw;
+  margin-left: 5vw;
+  margin-right: 8vw;
+  margin-top: 2vh;
+  height: 15vh;
+}
+.pay1{
+  margin-top: 3vh;
+  margin-left: 5vw;
+}
+.FastagId{
+  margin-left: 4vw;
+}
+.inputContent1{
+  margin-top:0.5vh;
+  padding-bottom: 1vh;
+  padding-left: 5vw;
+  padding-right: 1vw;
+  color:#929292;
+  font-size:3vw;
 }
 .inputContent {
   margin-top: 0.5vh;
@@ -66,7 +95,7 @@ ion-button {
   font-size: 3vw;
   border: none;
 }
-ion-input{
+ion-input {
   border: none;
   background-color: #f7f8f9;
 }

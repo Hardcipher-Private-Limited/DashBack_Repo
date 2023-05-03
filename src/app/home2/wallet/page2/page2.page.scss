@@ -1,13 +1,24 @@
-.walletpage2 {
-    margin-left: 4px ;
-    margin-top: 3vh;
-    font-family: "Montserrat";
-    font-style: normal;
-    font-weight: bold;
-    font-size: 4vw ;
+// .walletpage2 {
+//     margin-left: 4px ;
+//     margin-top: 3vh;
+//     font-family: "Montserrat";
+//     font-style: normal;
+//     font-weight: bold;
+//     font-size: 4vw ;
+// }
+.walletpage2{
+    font-size: x-large;
+  font-weight: bolder;
+  margin-left: 16vw;
+  margin-top: -50px;
+}
+.parentclass{
+    margin-left: 4vw;
+    margin-top: 5vh;
 }
 .row {
   margin-top: 5vh;
+  margin-left: 3vw;
 }
 .smallclass {
   font-size: 14px;
@@ -46,3 +57,28 @@
 h3{
     font-weight: bold;
 }
+ion-button{
+  margin-top: 45vh;
+  margin-left: 25vw;
+  border-radius: 90px;
+  background-color: #09376E;
+  
+}
+.btnn{
+  margin-top: 45vh;
+  margin-left: 75vw;
+}
+.plus{
+  color: black;
+  font-size: xx-large;
+  // margin-top: -150px;
+  margin-left: 320px;
+}
+ion-chip {
+  --background: #00213f;
+  --color: #adefd1;
+    margin-left: 75vw;
+    margin-top: 45vh;
+    font-size: 60px;
+}
+

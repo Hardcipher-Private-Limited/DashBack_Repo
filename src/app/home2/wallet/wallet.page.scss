@@ -32,7 +32,7 @@
 
 ion-content {
   --ion-background-color: #09376e;
-  position: relative;
+  // position: relative;
 }
 
 .card1 {
@@ -68,7 +68,7 @@ ion-content {
   left: 15vw;
   line-height: 100%;
   font-weight: 1000;
-  color: #09376e;
+  // color: #09376e;
 }
 .long-btn {
   font-size: 15px;
@@ -108,15 +108,15 @@ h3 {
 p {
   font-weight: 500;
 }
-ion-card {
-  border-top: 2px solid #d9d9d9;
-  border-left: 2px solid #d9d9d9;
-  border-right: 2px solid #d9d9d9;
-  border-bottom: 2px solid #d9d9d9;
-}
-ion-col {
-  --placeholder-color: #09376e;
-}
+// ion-card {
+//   border-top: 2px solid #d9d9d9;
+//   border-left: 2px solid #d9d9d9;
+//   border-right: 2px solid #d9d9d9;
+//   border-bottom: 2px solid #d9d9d9;
+// }
+// ion-col {
+//   --placeholder-color: #09376e;
+// }
 .smallbutton {
   margin-left: 3vw;
   font-weight: bolder;

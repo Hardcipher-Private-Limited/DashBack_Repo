@@ -29,18 +29,18 @@ ion-content {
   margin-top: -70px;
   top: -70px;
 }
-.part2 {
-  margin-left: 10px;
+.part1 {
+  margin-left: 5vw;
 }
 .part3 {
   position: relative;
   top: -30px;
   margin-top: -630px;
-  margin-left: 140px;
+  margin-left: 35vw;
 }
 .Oops {
-  font-size: 15px;
-  margin-left: 70px;
+  font-size: 3vw;
+  margin-left: 25vw;
   margin-top: 5px;
   font-weight: bold;
 }
@@ -59,14 +59,21 @@ ion-content {
 }
 ion-button {
   margin-left: 19vw;
-  padding-left: 15vw;
+  padding-left: 10vw;
   padding-right: 50vw;
-  display: flex;
-  position: absolute;
-  margin-top: 12px;
-  font-size: 15px;
+  margin-top: 3vh;
+  font-size: 13px;
   
 }
+.child{
+  margin-top: -50px;
+  margin-left: 5vw;
+}
+.child1{
+  margin-left: 5vw;
+
+}
+
 .order {
   font-size: 15px;
   margin-left: 70px;
@@ -99,32 +106,34 @@ ion-button {
   font-weight: bold;
 }
 .firstpara {
-  margin-left: 60px;
-  margin-top: 40px;
-  font-size: small;
+  margin-left: 20vw;
+  margin-top: 4vh;
+  font-size: 12px;
 }
 .secondpara {
-  margin-left: 70px;
-  margin-top: 10px;
-  font-size: small;
+  margin-left: 25vw;
+  font-size: 12px;
 }
 .thirdpara {
-  margin-left: 130px;
-  margin-top: 10px;
-  font-size: small;
+  margin-left: 35vw;
+  font-size: 12px;
 }
 .firstpart {
-  margin-left: 90px;
+  margin-left: 28vw;
   margin-top: 5px;
-  font-size: small;
+  font-size: 10px;
 }
 .secondpart {
-  margin-left: 70px;
+  margin-left: 28vw;
   margin-top: 0px;
-  font-size: small;
+  font-size: 10px;
 }
-.thirdpart {
-  margin-left: 180px;
-  margin-top: 0px;
-  font-size: small;
+.btnn {
+  color: #09376e;
+  font-weight: 550;
+  margin-top: 3vh;
+  margin-left: 26vw;
+  position: absolute;
 }
+
+

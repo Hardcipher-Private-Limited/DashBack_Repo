@@ -9,6 +9,28 @@
 ion-textarea {
   border: hidden;
 }
+.pay1{
+  margin-top: 3vh;
+  margin-left: 5vw;
+}
+.btn {
+  --background: #eef4ff;
+  color: #09376e;
+  width: 20vw;
+  // padding: 5vw;
+  margin-left: 9vw;
+  border-color: 5px 1px 1px 1px solid grey;
+  border-top: 1px solid #bbb;
+  border-bottom: 1px solid #bbb;
+  border-left: 1px solid #bbb;
+  border-right: 1px solid #bbb;
+  
+
+
+}
+ion-button{
+  --box-shadow: none
+}
 
 .info {
   max-width: 100%;
@@ -69,8 +91,15 @@ h6 {
   margin-left: 30px;
   margin-right: 40px;
   padding-right: 5px;
-  border: 2px solid grey;
+  border: 1px solid grey;
+  border-radius:15px;
   align-items: center;
+}
+ion-textarea {
+  border: hidden;
+}
+.long-btn{
+  font-size: 20px;
 }
 p {
   margin-left: 8vw;
